@@ -1,81 +1,34 @@
 # David Turner
 
-**Applied AI builder focused on prompt systems, research tools, privacy-first automation, and practical AI products.**
+**Applied AI builder focused on practical product prototypes, local-first privacy tools, research workflows, and technical operations systems.**
 
-I build practical AI-assisted tools that turn complex workflows into usable products: research workbenches, privacy-first document utilities, structured prompt systems, educational interfaces, and portfolio-ready software prototypes.
+I build reviewable AI-assisted software: live demos, source repos, case studies, and documentation that explain the product decisions behind each project.
 
-My work sits at the intersection of applied AI, product thinking, research synthesis, workflow automation, and human-centered tool design.
+## Portfolio Hub
 
----
+**Start here:** [AI Project Portfolio Hub](https://atomicdjt.github.io/AI-Project-Portfolio/)
 
-## Featured Portfolio
+The hub gives recruiters and hiring managers a compact review path across live demos, source links, case studies, status labels, and technical depth notes.
 
-### AI Project Portfolio
+## Flagship Projects
 
-A curated portfolio of applied AI projects, product prototypes, research tools, and technical case studies.
-
-**Main repository:** [AI Project Portfolio](https://github.com/atomicdjt/AI-Project-Portfolio)
-
-This portfolio highlights projects involving:
-
-- AI-assisted research and analysis tools
-- Privacy-preserving document workflows
-- Bioinformatics and educational science interfaces
-- Prompt engineering systems and structured AI workflows
-- Product prototypes built with modern web tooling
-- Practical automation for real-world users
-
----
-
-## Selected Project Areas
-
-### Privacy-first AI tools
-
-Tools designed around local-first workflows, document safety, redaction, review, and responsible handling of sensitive information.
-
-### Research and education workbenches
-
-Interactive tools for making complex topics easier to explore, including biology, genomics, amino acids, variant interpretation, and structured learning interfaces.
-
-### Prompt systems and AI workflows
-
-Reusable prompting frameworks, evaluation workflows, and structured AI-assisted processes designed for clarity, repeatability, and practical output quality.
-
-### Product prototypes
-
-Polished proof-of-concept applications built to demonstrate real product thinking: interface clarity, user flow, problem framing, and deployment readiness.
-
----
+| Project | Live demo | Why it matters |
+| --- | --- | --- |
+| [ScamShield AI](https://scamshield-ai-safety.netlify.app/) | Consumer safety workflow | Local-first scam-risk assessment, evidence organization, safer next steps, reporting guidance, and PDF export. |
+| [RedactReady](https://redactready-local.netlify.app/) | Privacy redaction tool | Local document review and redaction workflow for PDFs, images, text, and CSV files. |
+| [LayerForge Studio](https://atomicdjt.github.io/AI-Project-Portfolio/layerforge-studio/) | Browser image editor | Canvas-based layered editor with local persistence, tools, filters, undo, and exports. |
+| [OpsPilot](https://opspilot-ai-operations-toolkit.netlify.app/) | Operations toolkit | Converts messy operational notes into SOPs, onboarding checklists, knowledge base articles, and gap reports. |
+| [FocusForge](https://focusforge-productivity-game.netlify.app/) | Productivity game | Local-first focus timer with progression systems, durable state, and polished static deployment. |
 
 ## Technical Focus
 
-- Prompt engineering and AI workflow design
-- Applied AI product development
-- Research synthesis and knowledge tooling
-- Front-end product prototyping
-- Privacy-first document automation
-- Bioinformatics-oriented educational tools
-- GitHub, Netlify, modern web deployment, and AI-assisted development workflows
+- AI workflow design and product prototyping
+- React, TypeScript, Vite, Canvas 2D, browser storage, and static deployment
+- Local-first privacy and safety UX
+- Technical operations, documentation systems, SOPs, and knowledge workflows
+- Research-support tooling with explicit responsible-use boundaries
 
----
+## Repositories
 
-## Current Direction
-
-I am focused on building practical AI products that are useful, understandable, and deployable, especially tools that help people analyze information, protect sensitive data, learn complex material, or automate tedious workflows.
-
-I am especially interested in roles and collaborations involving:
-
-- AI operations
-- Prompt engineering
-- AI product support
-- Research tooling
-- Knowledge systems
-- Documentation and workflow automation
-- Applied AI prototyping
-
----
-
-## Links
-
-- **GitHub Portfolio:** [AI Project Portfolio](https://github.com/atomicdjt/AI-Project-Portfolio)
-- **GitHub Profile:** [atomicdjt](https://github.com/atomicdjt)
+- [AI Project Portfolio](https://github.com/atomicdjt/AI-Project-Portfolio)
+- [Profile README source](https://github.com/atomicdjt/atomicdjt)
