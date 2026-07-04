@@ -1,34 +1,42 @@
 # David Turner
 
-**Applied AI builder focused on practical product prototypes, local-first privacy tools, research workflows, and technical operations systems.**
+**Applied AI product builder focused on local-first privacy tools, workflow systems, research-support software, and technical operations products.**
 
-I build reviewable AI-assisted software: live demos, source repos, case studies, and documentation that explain the product decisions behind each project.
+I build reviewable AI-assisted software: live demos, source repos, case studies, validation notes, and deployment documentation that explain the product decisions behind each project.
 
-## Portfolio Hub
+## Start Here
 
-**Start here:** [AI Project Portfolio Hub](https://atomicdjt.github.io/AI-Project-Portfolio/)
+- **Portfolio hub:** [atomicdjt.github.io/AI-Project-Portfolio](https://atomicdjt.github.io/AI-Project-Portfolio/)
+- **Main repository:** [AI Project Portfolio](https://github.com/atomicdjt/AI-Project-Portfolio)
+- **Recruiter quick review:** [docs/recruiter-quick-review.md](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/recruiter-quick-review.md)
+- **Verification guide:** [docs/verification.md](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/verification.md)
 
-The hub gives recruiters and hiring managers a compact review path across live demos, source links, case studies, status labels, and technical depth notes.
+## Best Projects To Review First
 
-## Flagship Projects
-
-| Project | Live demo | Why it matters |
+| Project | Live demo | What it demonstrates |
 | --- | --- | --- |
-| [ScamShield AI](https://scamshield-ai-safety.netlify.app/) | Consumer safety workflow | Local-first scam-risk assessment, evidence organization, safer next steps, reporting guidance, and PDF export. |
-| [RedactReady](https://redactready-local.netlify.app/) | Privacy redaction tool | Local document review and redaction workflow for PDFs, images, text, and CSV files. |
-| [LayerForge Studio](https://atomicdjt.github.io/AI-Project-Portfolio/layerforge-studio/) | Browser image editor | Canvas-based layered editor with local persistence, tools, filters, undo, and exports. |
-| [OpsPilot](https://opspilot-ai-operations-toolkit.netlify.app/) | Operations toolkit | Converts messy operational notes into SOPs, onboarding checklists, knowledge base articles, and gap reports. |
-| [FocusForge](https://focusforge-productivity-game.netlify.app/) | Productivity game | Local-first focus timer with progression systems, durable state, and polished static deployment. |
+| [BuildWorld AI](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/buildworld-ai) | [Demo](https://buildworld-ai.netlify.app/) | Graph-based systems simulation, deterministic engines, cascade analysis, SSI scoring, reports, and local persistence. |
+| [RedactReady Pro](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/redactready-pro-hri-os) | [Demo](https://redactready-pro-hri-os.netlify.app/) | Local-first document intelligence, sensitive-information detection, HRI scoring, redaction, evidence mapping, and report export. |
+| [ScamShield AI](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/scamshield-ai) | [Demo](https://scamshield-ai-safety.netlify.app/) | Consumer-safety workflow for suspicious-message review, evidence organization, official reporting guidance, and PDF export. |
+| [RedactReady](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/redactready-local) | [Demo](https://redactready-local.netlify.app/) | Browser-local document redaction for PDFs, images, text, and CSV files with verification-minded UX. |
+| [LayerForge Studio](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/layerforge-studio) | [Demo](https://atomicdjt.github.io/AI-Project-Portfolio/layerforge-studio/) | Canvas-based layered image editor with local persistence, tools, filters, undo, and exports. |
+| [OpsPilot](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/opspilot-ai-operations-toolkit) | [Demo](https://opspilot-ai-operations-toolkit.netlify.app/) | Technical operations toolkit for SOPs, onboarding checklists, knowledge base articles, gap reports, and versioned documents. |
+| [VariantVision Pro](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/variantvision-pro) | [Demo](https://variantvisionpro.netlify.app/) | Educational bioinformatics evidence workbench with source transparency and non-diagnostic research-tool boundaries. |
+
+## Role Alignment
+
+- AI Workflow Specialist
+- Technical Operations
+- Knowledge Operations
+- Documentation / Knowledge Base
+- Product Operations
+- Junior Technical Product Analyst
+- Research Operations Assistant
 
 ## Technical Focus
 
-- AI workflow design and product prototyping
 - React, TypeScript, Vite, Canvas 2D, browser storage, and static deployment
-- Local-first privacy and safety UX
-- Technical operations, documentation systems, SOPs, and knowledge workflows
+- Local-first privacy and safety workflows
+- AI-assisted workflow design and product prototyping
+- Documentation systems, case studies, validation notes, and release hygiene
 - Research-support tooling with explicit responsible-use boundaries
-
-## Repositories
-
-- [AI Project Portfolio](https://github.com/atomicdjt/AI-Project-Portfolio)
-- [Profile README source](https://github.com/atomicdjt/atomicdjt)
