@@ -35,10 +35,11 @@ I build reviewable AI-assisted software and commercial handoff packages: live de
 | [OpsPilot](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/opspilot-ai-operations-toolkit) | [Demo](https://opspilot-ai-operations-toolkit.netlify.app/) | Technical operations toolkit for SOPs, onboarding checklists, knowledge base articles, gap reports, and versioned documents. |
 | [VariantVision Pro](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/variantvision-pro) | [Demo](https://variantvisionpro.netlify.app/) | Educational bioinformatics evidence workbench with source transparency and non-diagnostic research-tool boundaries. |
 
-## Shipped Commercial Product
+## Commercial Products and Acquisition Assets
 
 | Product | Public links | What it demonstrates |
 | --- | --- | --- |
+| [WeaveStudio](https://github.com/atomicdjt/weavestudio) | [Demo](https://weavestudio-demo.vercel.app/) / [Acquisition overview](https://weavestudio-demo.vercel.app/acquire) | Local-first visual workflow canvas with recovery, snapshots, validation, export, consent-gated BYOK AI, accessible UX, and a documented source/IP handoff. |
 | QuoteForge Local | [Demo](https://quoteforge-local.vercel.app/) / [Payhip](https://payhip.com/b/24De9) | Commercial buyer packaging, local-first quoting workflow, setup/customization docs, embed/WordPress handoff, QA evidence, licensing, and sales-page readiness. |
 
 ## Strongest Public Proof
