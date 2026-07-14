@@ -19,7 +19,7 @@ I build reviewable AI-assisted software and commercial handoff packages: live de
 ## Current Public Status
 
 - Public Portfolio Hub and flagship app links were audited on July 4, 2026.
-- Portfolio validation includes lint, typecheck, tests, production builds, link checks, GitHub Actions, GitHub Pages verification, and Netlify production smoke checks.
+- Portfolio validation includes lint, typecheck, tests, production builds, link checks, GitHub Actions, GitHub Pages verification, and Vercel production smoke checks for BuildWorld AI and Netlify checks where those apps remain hosted.
 - QuoteForge Local is a shipped commercial product with a live demo and Payhip product page; its source and buyer package are maintained outside the portfolio repo.
 - The strongest evidence is concentrated in the portfolio hub, the first three flagship demos, and the documented case studies.
 
@@ -27,7 +27,7 @@ I build reviewable AI-assisted software and commercial handoff packages: live de
 
 | Project | Live demo | What it demonstrates |
 | --- | --- | --- |
-| [BuildWorld AI](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/buildworld-ai) | [Demo](https://buildworld-ai.netlify.app/) | Graph-based systems simulation, deterministic engines, cascade analysis, SSI scoring, reports, and local persistence. |
+| [BuildWorld AI](https://github.com/atomicdjt/buildworld-ai) | [Demo](https://buildworld-ai-v01-improvements.vercel.app/) | Graph-based systems simulation, deterministic engines, cascade analysis, SSI scoring, reports, and local persistence. |
 | [RedactReady Pro](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/redactready-pro-hri-os) | [Demo](https://redactready-pro-hri-os.netlify.app/) | Local-first document intelligence, sensitive-information detection, HRI scoring, redaction, evidence mapping, and report export. |
 | [ScamShield AI](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/scamshield-ai) | [Demo](https://scamshield-ai-safety.netlify.app/) | Consumer-safety workflow for suspicious-message review, evidence organization, official reporting guidance, and PDF export. |
 | [RedactReady](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/redactready-local) | [Demo](https://redactready-local.netlify.app/) | Browser-local document redaction for PDFs, images, text, and CSV files with verification-minded UX. |
@@ -47,7 +47,7 @@ I build reviewable AI-assisted software and commercial handoff packages: live de
 | Proof point | Where to look |
 | --- | --- |
 | Fast portfolio review | [Portfolio Hub](https://atomicdjt.github.io/AI-Project-Portfolio/) |
-| Technical depth | [BuildWorld AI](https://buildworld-ai.netlify.app/) and [technical-depth.md](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/technical-depth.md) |
+| Technical depth | [BuildWorld AI](https://buildworld-ai-v01-improvements.vercel.app/) and [technical-depth.md](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/technical-depth.md) |
 | Privacy and safety judgment | [RedactReady Pro](https://redactready-pro-hri-os.netlify.app/) and [ScamShield AI](https://scamshield-ai-safety.netlify.app/) |
 | Deployment and validation discipline | [verification.md](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/verification.md) and [deployment-and-previews.md](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/deployment-and-previews.md) |
 | Commercial product packaging | [QuoteForge Local](https://quoteforge-local.vercel.app/) and [Payhip product page](https://payhip.com/b/24De9) |
