@@ -4,6 +4,8 @@
 
 I turn ambiguous operational, privacy, research, and documentation problems into reviewable software: typed source, tests, validation notes, case studies, release documentation, live Vercel deployments, and clear handoff materials.
 
+**Contact:** [Email me](mailto:davidelsey9513@gmail.com)
+
 [![Live Portfolio](https://img.shields.io/badge/Portfolio-Live%20on%20Vercel-000000?logo=vercel)](https://ai-project-portfolio-portfolio-hub.vercel.app/)
 [![Main Repository](https://img.shields.io/badge/GitHub-AI%20Project%20Portfolio-111827?logo=github)](https://github.com/atomicdjt/AI-Project-Portfolio)
 [![Deployment Policy](https://img.shields.io/badge/Deployments-Vercel%20Only-000000?logo=vercel)](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/VERCEL_DEPLOYMENT.md)
