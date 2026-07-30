@@ -6,9 +6,11 @@ I turn ambiguous operations, research, privacy, and documentation problems into 
 
 My strongest work sits at the intersection of **applied AI, workflow design, technical operations, product operations, documentation systems, and local-first software**.
 
-[Portfolio Hub](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)
+[Start the five-minute review](https://ai-project-portfolio-portfolio-hub.vercel.app/review) · [Portfolio Hub](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)
 
 ## Five-minute review path
+
+Use the [guided review route](https://ai-project-portfolio-portfolio-hub.vercel.app/review) for the shortest portfolio walkthrough, then use the project links below to inspect the live products and supporting evidence.
 
 | Project | Evidence | Why it is worth reviewing |
 | --- | --- | --- |
