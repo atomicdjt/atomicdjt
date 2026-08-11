@@ -19,6 +19,10 @@ Use the [guided review route](https://ai-project-portfolio-portfolio-hub.vercel.
 | **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** | [Product review](https://weavestudio-nine.vercel.app/) | Strongest end-to-end productization evidence: local-first workflow canvas, portable projects, snapshots, browser validation, consent-gated AI assistance, and buyer handoff materials. |
 | **[QuoteForge Local](https://quoteforge-local.vercel.app/)** | [Commercial product](https://quoteforge-local.vercel.app/) | Strongest commercial-execution evidence: typed quote logic, ten calculator templates, embeddable delivery, WordPress path, licensing, packaging, and buyer documentation. |
 
+Supporting specialization: **[ScamShield AI — Explainable Scam Analysis by David Turner](https://ai-project-portfolio-scamshield-ai.vercel.app/)** demonstrates local-first consumer-safety workflows, evidence organization, and explicit responsible-use boundaries.
+
+Current source authority: `atomicdjt/AI-Project-Portfolio`, `atomicdjt/buildworld-ai`, and `atomicdjt/weavestudio` use `main`; WeaveStudio's retained `master` branch is compatibility/legacy only. QuoteForge Local is maintained in the private `atomicdjt/quoteforge-local` repository on `main`. Public project links above use canonical deployments rather than supporting or legacy surfaces.
+
 ## What the portfolio demonstrates
 
 - **Problem framing:** identifies users, workflows, constraints, non-goals, and success criteria before implementation.
