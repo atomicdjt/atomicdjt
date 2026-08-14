@@ -8,6 +8,20 @@ My strongest work sits at the intersection of **applied AI, workflow design, tec
 
 [Start the five-minute review](https://ai-project-portfolio-portfolio-hub.vercel.app/review) · [Portfolio Hub](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)
 
+### Follow what I'm building
+
+I am actively shipping and testing practical software rather than maintaining a static portfolio. If you are interested in **local-first software, human-in-the-loop AI, deterministic systems, workflow tooling, evidence-driven product design, or unusually transparent AI-assisted development**, follow along here on GitHub or connect with me on LinkedIn.
+
+Current public work includes:
+
+- **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** — a local-first visual workflow canvas with portable projects, snapshots, browser validation, and consent-gated AI assistance.
+- **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** — deterministic systems simulation with typed graph models, cascade analysis, reproducible reports, and an original stability heuristic.
+- **[Validation Ledger](https://github.com/atomicdjt/validation-ledger)** — a project focused on making claims, evidence, limitations, and external validation easier to inspect.
+- **[ProcessHarbor](https://ai-project-portfolio-opspilot-ai-op.vercel.app/)** — technical-operations workflows for SOPs, onboarding, knowledge gaps, audits, versions, and export.
+- **[QuoteForge Local](https://quoteforge-local.vercel.app/)** — a commercial white-label quote-calculator package for agencies and local-service web implementers.
+
+I am especially interested in sharing **what changed, what failed, what outside reviewers challenged, and what I learned from shipping**—not just polished launch announcements.
+
 ### I am actively looking for outside critique
 
 If you work in product, software, technical operations, research, agencies, or local-service web implementation, I would rather hear **what is confusing, unnecessary, missing, or commercially weak** than receive generic praise.
