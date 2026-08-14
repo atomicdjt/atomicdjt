@@ -1,26 +1,29 @@
 # David Turner
 
-## Applied AI Workflow & Technical Operations Specialist
+**I build local-first software, deterministic AI-assisted workflows, and technical-operations tools — then document what works, what fails, and what outside reviewers challenge.**
 
-I turn ambiguous operations, research, privacy, and documentation problems into **reviewable software systems** with clear scope boundaries, deterministic fallbacks, human-review checkpoints, tests, deployment evidence, and handoff materials.
+I am an independent applied-AI and workflow builder interested in systems that are **inspectable, testable, useful, and honest about their limits**. My work sits at the intersection of local-first software, human-in-the-loop AI, workflow design, systems thinking, technical operations, documentation, and practical product development.
 
-My strongest work sits at the intersection of **applied AI, workflow design, technical operations, product operations, documentation systems, and local-first software**.
+[Portfolio Hub](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [Five-minute review](https://ai-project-portfolio-portfolio-hub.vercel.app/review) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)
 
-[Start the five-minute review](https://ai-project-portfolio-portfolio-hub.vercel.app/review) · [Portfolio Hub](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)
+## Start here
 
-### Follow what I'm building
+If you found me through a GitHub discussion, a shared project, or LinkedIn, these are the fastest ways to see what I actually build:
 
-I am actively shipping and testing practical software rather than maintaining a static portfolio. If you are interested in **local-first software, human-in-the-loop AI, deterministic systems, workflow tooling, evidence-driven product design, or unusually transparent AI-assisted development**, follow along here on GitHub or connect with me on LinkedIn.
+- **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** — local-first visual workflow canvas with portable projects, snapshots, browser validation, and consent-gated AI assistance. [Try it](https://weavestudio-nine.vercel.app/)
+- **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** — deterministic systems simulation with typed graph models, cascade analysis, reproducible reports, and an original stability heuristic. [Try it](https://buildworld-ai-v01-improvements.vercel.app/)
+- **[Validation Ledger](https://github.com/atomicdjt/validation-ledger)** — an experiment in making project claims, evidence, limitations, and external validation easier to inspect.
 
-Current public work includes:
+### Why follow this profile?
 
-- **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** — a local-first visual workflow canvas with portable projects, snapshots, browser validation, and consent-gated AI assistance.
-- **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** — deterministic systems simulation with typed graph models, cascade analysis, reproducible reports, and an original stability heuristic.
-- **[Validation Ledger](https://github.com/atomicdjt/validation-ledger)** — a project focused on making claims, evidence, limitations, and external validation easier to inspect.
+I am actively shipping and testing software rather than maintaining a static portfolio. I share the parts that are usually hidden from polished launch posts: **architecture decisions, failure modes, validation gaps, AI-assisted development boundaries, outside criticism, and what changed after something did not work**.
+
+Current public work also includes:
+
 - **[ProcessHarbor](https://ai-project-portfolio-opspilot-ai-op.vercel.app/)** — technical-operations workflows for SOPs, onboarding, knowledge gaps, audits, versions, and export.
 - **[QuoteForge Local](https://quoteforge-local.vercel.app/)** — a commercial white-label quote-calculator package for agencies and local-service web implementers.
 
-I am especially interested in sharing **what changed, what failed, what outside reviewers challenged, and what I learned from shipping**—not just polished launch announcements.
+If that overlaps with what you build or research, follow along here on GitHub or connect with me on LinkedIn.
 
 ### I am actively looking for outside critique
 
@@ -39,8 +42,8 @@ Use the [guided review route](https://ai-project-portfolio-portfolio-hub.vercel.
 
 | Project | Evidence | Why it is worth reviewing |
 | --- | --- | --- |
-| **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** | [Live demo](https://buildworld-ai-v01-improvements.vercel.app/) · [Technical decision case study](docs/TECHNICAL_DECISIONS.md#buildworld-ai-deterministic-systems-simulation) | Strongest technical-originality evidence: typed graph models, deterministic simulation engines, cascade analysis, reproducible reports, and an original stability heuristic. |
-| **[ProcessHarbor](https://ai-project-portfolio-opspilot-ai-op.vercel.app/)** | [Source](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/opspilot-ai-operations-toolkit) · [Validation plan](docs/EXTERNAL_VALIDATION_KIT.md) | Strongest role-alignment evidence for technical operations, SOPs, onboarding, knowledge-base workflows, documentation gaps, audit events, versions, and export. |
+| **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** | [Live demo](https://buildworld-ai-v01-improvements.vercel.app/) · [Technical decision case study](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/TECHNICAL_DECISIONS.md#buildworld-ai-deterministic-systems-simulation) | Strongest technical-originality evidence: typed graph models, deterministic simulation engines, cascade analysis, reproducible reports, and an original stability heuristic. |
+| **[ProcessHarbor](https://ai-project-portfolio-opspilot-ai-op.vercel.app/)** | [Source](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/opspilot-ai-operations-toolkit) · [Validation plan](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/EXTERNAL_VALIDATION_KIT.md) | Strongest role-alignment evidence for technical operations, SOPs, onboarding, knowledge-base workflows, documentation gaps, audit events, versions, and export. |
 | **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** | [Product review](https://weavestudio-nine.vercel.app/) | Strongest end-to-end productization evidence: local-first workflow canvas, portable projects, snapshots, browser validation, consent-gated AI assistance, and buyer handoff materials. |
 | **[QuoteForge Local](https://quoteforge-local.vercel.app/)** | [Commercial product](https://quoteforge-local.vercel.app/) | Strongest commercial-execution evidence: typed quote logic, ten calculator templates, embeddable delivery, WordPress path, licensing, packaging, and buyer documentation. |
 
@@ -63,10 +66,10 @@ This is an **AI-assisted portfolio**, not a claim that every line was written ma
 
 Review the supporting evidence:
 
-- **[Portfolio evidence dossier](docs/PORTFOLIO_EVIDENCE.md)** — capability-to-evidence matrix and reviewer guidance.
-- **[Technical decisions](docs/TECHNICAL_DECISIONS.md)** — architecture choices, tradeoffs, alternatives, and limitations.
-- **[Recruiter brief](docs/RECRUITER_BRIEF.md)** — concise role alignment and interview-ready review path.
-- **[External validation kit](docs/EXTERNAL_VALIDATION_KIT.md)** — ethical ProcessHarbor usability-study protocol.
+- **[Portfolio evidence dossier](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/PORTFOLIO_EVIDENCE.md)** — capability-to-evidence matrix and reviewer guidance.
+- **[Technical decisions](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/TECHNICAL_DECISIONS.md)** — architecture choices, tradeoffs, alternatives, and limitations.
+- **[Recruiter brief](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/RECRUITER_BRIEF.md)** — concise role alignment and interview-ready review path.
+- **[External validation kit](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/EXTERNAL_VALIDATION_KIT.md)** — ethical ProcessHarbor usability-study protocol.
 
 Commercial availability does not imply verified revenue, customers, active users, purchases, or completed acquisitions. Deterministic scores are heuristics rather than certified predictions. Local-first storage is not automatically encrypted, durable, or compliant.
 
