@@ -8,6 +8,17 @@ My strongest work sits at the intersection of **applied AI, workflow design, tec
 
 [Start the five-minute review](https://ai-project-portfolio-portfolio-hub.vercel.app/review) · [Portfolio Hub](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)
 
+### I am actively looking for outside critique
+
+If you work in product, software, technical operations, research, agencies, or local-service web implementation, I would rather hear **what is confusing, unnecessary, missing, or commercially weak** than receive generic praise.
+
+- [Challenge Validation Ledger's evidence model](https://github.com/atomicdjt/validation-ledger/issues/3)
+- [Test WeaveStudio and tell me why you would or would not use it](https://github.com/atomicdjt/weavestudio/issues/21)
+- [Stress-test BuildWorld AI's usefulness and simulation model](https://github.com/atomicdjt/buildworld-ai/issues/7)
+- [Try QuoteForge Local](https://quoteforge-local.vercel.app/) — especially interested in feedback from agencies, freelancers, WordPress implementers, GoHighLevel implementers, and people building sites for local-service businesses.
+
+Thoughtful criticism, bug reports, workflow objections, and real-world use-case feedback are welcome.
+
 ## Five-minute review path
 
 Use the [guided review route](https://ai-project-portfolio-portfolio-hub.vercel.app/review) for the shortest portfolio walkthrough, then use the project links below to inspect the live products and supporting evidence.
