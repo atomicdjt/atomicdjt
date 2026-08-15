@@ -12,7 +12,7 @@ If you found me through a GitHub discussion, a shared project, or LinkedIn, thes
 
 - **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** — local-first visual workflow canvas with portable projects, snapshots, browser validation, and consent-gated AI assistance. [Try it](https://weavestudio-nine.vercel.app/)
 - **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** — deterministic systems simulation with typed graph models, cascade analysis, reproducible reports, and an original stability heuristic. [Try it](https://buildworld-ai-v01-improvements.vercel.app/)
-- **[Validation Ledger](https://github.com/atomicdjt/validation-ledger)** — an experiment in making project claims, evidence, limitations, and external validation easier to inspect.
+- **[Validation Ledger](https://github.com/atomicdjt/validation-ledger)** — an experiment in making project claims, evidence, limitations, and external validation easier to inspect. [Try it](https://validation-ledger.vercel.app/)
 
 ### Why follow this profile?
 
