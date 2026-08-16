@@ -13,14 +13,14 @@ I build local-first software, deterministic AI-assisted workflows, and technical
 These are the fastest ways to see what I actually build. Each project emphasizes distinct technical themes, live demonstrations, and transparent architectural decisions.
 
 ### [Validation Ledger](https://github.com/atomicdjt/validation-ledger)
-*An experiment in making project claims, evidence, limitations, and external validation easier to inspect.*
+*A local-first customer-evidence and product-decision workspace.*
 - **Technical Themes:** Evidence organization, claim verification, structural integrity.
 - **Live Demo:** [Try Validation Ledger](https://validation-ledger.vercel.app/)
 - **Feedback:** [Challenge the evidence model](https://github.com/atomicdjt/validation-ledger/issues/3)
 
 ### [WeaveStudio](https://github.com/atomicdjt/weavestudio)
 *Local-first visual workflow canvas with portable projects, snapshots, browser validation, and consent-gated AI assistance.*
-- **Technical Themes:** Canvas/SVG, local-first storage (IndexedDB), end-to-end productization.
+- **Technical Themes:** Canvas/SVG, local-first storage (localStorage), end-to-end productization.
 - **Live Demo:** [Try WeaveStudio](https://weavestudio-nine.vercel.app/)
 - **Feedback:** [Test WeaveStudio and provide feedback](https://github.com/atomicdjt/weavestudio/issues/21)
 
