@@ -1,86 +1,78 @@
 # David Turner
 
-**I build local-first software, deterministic AI-assisted workflows, and technical-operations tools — then document what works, what fails, and what outside reviewers challenge.**
+**Independent Applied-AI & Workflow Builder**
 
-I am an independent applied-AI and workflow builder interested in systems that are **inspectable, testable, useful, and honest about their limits**. My work sits at the intersection of local-first software, human-in-the-loop AI, workflow design, systems thinking, technical operations, documentation, and practical product development.
+I build local-first software, deterministic AI-assisted workflows, and technical-operations tools — then document what works, what fails, and what outside reviewers challenge. My work sits at the intersection of local-first software, human-in-the-loop AI, workflow design, systems thinking, technical operations, and practical product development. I prioritize systems that are **inspectable, testable, useful, and honest about their limits**.
 
-[Portfolio Hub](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [Five-minute review](https://ai-project-portfolio-portfolio-hub.vercel.app/review) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)
+[Portfolio Hub](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)
 
-## Start here
+---
 
-If you found me through a GitHub discussion, a shared project, or LinkedIn, these are the fastest ways to see what I actually build:
+## 🏗️ Strongest Projects
 
-- **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** — local-first visual workflow canvas with portable projects, snapshots, browser validation, and consent-gated AI assistance. [Try it](https://weavestudio-nine.vercel.app/)
-- **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** — deterministic systems simulation with typed graph models, cascade analysis, reproducible reports, and an original stability heuristic. [Try it](https://buildworld-ai-v01-improvements.vercel.app/)
-- **[Validation Ledger](https://github.com/atomicdjt/validation-ledger)** — an experiment in making project claims, evidence, limitations, and external validation easier to inspect. [Try it](https://validation-ledger.vercel.app/)
+These are the fastest ways to see what I actually build. Each project emphasizes distinct technical themes, live demonstrations, and transparent architectural decisions.
 
-### Why follow this profile?
+### [Validation Ledger](https://github.com/atomicdjt/validation-ledger)
+*A local-first customer-evidence and product-decision workspace.*
+- **Technical Themes:** Evidence organization, claim verification, structural integrity.
+- **Live Demo:** [Try Validation Ledger](https://validation-ledger.vercel.app/)
+- **Feedback:** [Challenge the evidence model](https://github.com/atomicdjt/validation-ledger/issues/3)
 
-I am actively shipping and testing software rather than maintaining a static portfolio. I share the parts that are usually hidden from polished launch posts: **architecture decisions, failure modes, validation gaps, AI-assisted development boundaries, outside criticism, and what changed after something did not work**.
+### [WeaveStudio](https://github.com/atomicdjt/weavestudio)
+*Local-first visual workflow canvas with portable projects, snapshots, browser validation, and consent-gated AI assistance.*
+- **Technical Themes:** Canvas/SVG, local-first storage (localStorage), end-to-end productization.
+- **Live Demo:** [Try WeaveStudio](https://weavestudio-nine.vercel.app/)
+- **Feedback:** [Test WeaveStudio and provide feedback](https://github.com/atomicdjt/weavestudio/issues/21)
 
-Current public work also includes:
+### [BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)
+*Deterministic systems simulation with typed graph models, cascade analysis, reproducible reports, and an original stability heuristic.*
+- **Technical Themes:** Typed graph models, deterministic simulation engines, cascade analysis.
+- **Live Demo:** [Try BuildWorld AI](https://buildworld-ai-v01-improvements.vercel.app/)
+- **Case Study:** [Technical decision case study](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/TECHNICAL_DECISIONS.md#buildworld-ai-deterministic-systems-simulation)
 
-- **[ProcessHarbor](https://ai-project-portfolio-opspilot-ai-op.vercel.app/)** — technical-operations workflows for SOPs, onboarding, knowledge gaps, audits, versions, and export.
-- **[QuoteForge Local](https://quoteforge-local.vercel.app/)** — a commercial white-label quote-calculator package for agencies and local-service web implementers.
+### [QuoteForge Local](https://quoteforge-local.vercel.app/)
+*A commercial white-label quote-calculator package for agencies and local-service web implementers.*
+- **Technical Themes:** Typed quote logic, licensing, embeddable delivery, WordPress integration.
+- **Live Demo:** [Try QuoteForge Local](https://quoteforge-local.vercel.app/)
 
-If that overlaps with what you build or research, follow along here on GitHub or connect with me on LinkedIn.
+*(Current public work also includes **[ProcessHarbor](https://ai-project-portfolio-opspilot-ai-op.vercel.app/)** and **[ScamShield AI](https://ai-project-portfolio-scamshield-ai.vercel.app/)**.)*
 
-### I am actively looking for outside critique
+---
 
-If you work in product, software, technical operations, research, agencies, or local-service web implementation, I would rather hear **what is confusing, unnecessary, missing, or commercially weak** than receive generic praise.
+## 🔬 What The Portfolio Demonstrates
 
-- [Challenge Validation Ledger's evidence model](https://github.com/atomicdjt/validation-ledger/issues/3)
-- [Test WeaveStudio and tell me why you would or would not use it](https://github.com/atomicdjt/weavestudio/issues/21)
-- [Stress-test BuildWorld AI's usefulness and simulation model](https://github.com/atomicdjt/buildworld-ai/issues/7)
-- [Try QuoteForge Local](https://quoteforge-local.vercel.app/) — especially interested in feedback from agencies, freelancers, WordPress implementers, GoHighLevel implementers, and people building sites for local-service businesses.
+- **Problem Framing:** Identifies users, workflows, constraints, non-goals, and success criteria before implementation.
+- **Systems Thinking:** Models dependencies, bottlenecks, state transitions, failure modes, reversibility, and evidence boundaries.
+- **Applied AI Judgment:** Separates deterministic core logic from optional provider assistance and requires human review before generated work is applied.
+- **Technical Operations:** Produces SOPs, checklists, knowledge-base drafts, gap reports, audit records, version histories, exports, and operational documentation.
+- **Product Execution:** Moves from concept through implementation, testing, live review, documentation, packaging, and transfer guidance.
+- **Claim Discipline:** Distinguishes implemented, tested, deployed, experimental, legacy, and unverified capabilities.
 
-Thoughtful criticism, bug reports, workflow objections, and real-world use-case feedback are welcome.
+---
 
-## Five-minute review path
+## 🛠️ Core Tools and Methods
 
-Use the [guided review route](https://ai-project-portfolio-portfolio-hub.vercel.app/review) for the shortest portfolio walkthrough, then use the project links below to inspect the live products and supporting evidence.
+**Technologies:** React · TypeScript · Vite · Next.js · Zod · Vitest · Playwright · Canvas/SVG · localStorage / IndexedDB  
+**Methods:** Deterministic workflow design · Structured exports · CI verification · Technical documentation · Human-in-the-loop AI boundaries
 
-| Project | Evidence | Why it is worth reviewing |
-| --- | --- | --- |
-| **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** | [Live demo](https://buildworld-ai-v01-improvements.vercel.app/) · [Technical decision case study](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/TECHNICAL_DECISIONS.md#buildworld-ai-deterministic-systems-simulation) | Strongest technical-originality evidence: typed graph models, deterministic simulation engines, cascade analysis, reproducible reports, and an original stability heuristic. |
-| **[ProcessHarbor](https://ai-project-portfolio-opspilot-ai-op.vercel.app/)** | [Source](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/opspilot-ai-operations-toolkit) · [Validation plan](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/EXTERNAL_VALIDATION_KIT.md) | Strongest role-alignment evidence for technical operations, SOPs, onboarding, knowledge-base workflows, documentation gaps, audit events, versions, and export. |
-| **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** | [Product review](https://weavestudio-nine.vercel.app/) | Strongest end-to-end productization evidence: local-first workflow canvas, portable projects, snapshots, browser validation, consent-gated AI assistance, and buyer handoff materials. |
-| **[QuoteForge Local](https://quoteforge-local.vercel.app/)** | [Commercial product](https://quoteforge-local.vercel.app/) | Strongest commercial-execution evidence: typed quote logic, ten calculator templates, embeddable delivery, WordPress path, licensing, packaging, and buyer documentation. |
+---
 
-Supporting specialization: **[ScamShield AI — Explainable Scam Analysis by David Turner](https://ai-project-portfolio-scamshield-ai.vercel.app/)** demonstrates local-first consumer-safety workflows, evidence organization, and explicit responsible-use boundaries.
+## 🔍 Evidence, Authorship, and Limitations
 
-Current source authority: `atomicdjt/AI-Project-Portfolio`, `atomicdjt/buildworld-ai`, and `atomicdjt/weavestudio` use `main`; WeaveStudio's retained `master` branch is compatibility/legacy only. QuoteForge Local is maintained in the private `atomicdjt/quoteforge-local` repository on `main`. Public project links above use canonical deployments rather than supporting or legacy surfaces.
+This is an **AI-assisted portfolio**. I direct product strategy, requirements, workflows, scope boundaries, acceptance criteria, verification expectations, source authority, and public claims. AI tools assist with implementation, research, debugging, testing, and drafting; I inspect, revise, reject, validate, and package the resulting work.
 
-## What the portfolio demonstrates
+**Review the supporting evidence:**
+- **[Portfolio evidence dossier](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/PORTFOLIO_EVIDENCE.md)** — Capability-to-evidence matrix and reviewer guidance.
+- **[Technical decisions](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/TECHNICAL_DECISIONS.md)** — Architecture choices, tradeoffs, alternatives, and limitations.
+- **[Recruiter brief](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/RECRUITER_BRIEF.md)** — Concise role alignment and interview-ready review path.
+- **[External validation kit](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/EXTERNAL_VALIDATION_KIT.md)** — Ethical usability-study protocol.
 
-- **Problem framing:** identifies users, workflows, constraints, non-goals, and success criteria before implementation.
-- **Systems thinking:** models dependencies, bottlenecks, state transitions, failure modes, reversibility, and evidence boundaries.
-- **Applied AI judgment:** separates deterministic core logic from optional provider assistance and requires human review before generated work is applied.
-- **Technical operations:** produces SOPs, checklists, knowledge-base drafts, gap reports, audit records, version histories, exports, and operational documentation.
-- **Product execution:** moves from concept through implementation, testing, live review, documentation, packaging, and transfer guidance.
-- **Claim discipline:** distinguishes implemented, tested, deployed, experimental, legacy, and unverified capabilities.
+*Limitations: Commercial availability does not imply verified revenue, customers, active users, purchases, or completed acquisitions. Deterministic scores are heuristics rather than certified predictions. Local-first storage is not automatically encrypted, durable, or compliant.*
 
-## Evidence, authorship, and limitations
+---
 
-This is an **AI-assisted portfolio**, not a claim that every line was written manually or that the work proves traditional senior-engineering tenure. I direct product strategy, requirements, workflows, scope boundaries, acceptance criteria, verification expectations, source authority, and public claims. AI tools assist with implementation, research, debugging, testing, and drafting; I inspect, revise, reject, validate, and package the resulting work.
+## 🗣️ Seeking Outside Critique
 
-Review the supporting evidence:
+If you work in product, software, technical operations, research, agencies, or local-service web implementation, I would rather hear **what is confusing, unnecessary, missing, or commercially weak** than receive generic praise. Thoughtful criticism, bug reports, workflow objections, and real-world use-case feedback are welcome.
 
-- **[Portfolio evidence dossier](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/PORTFOLIO_EVIDENCE.md)** — capability-to-evidence matrix and reviewer guidance.
-- **[Technical decisions](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/TECHNICAL_DECISIONS.md)** — architecture choices, tradeoffs, alternatives, and limitations.
-- **[Recruiter brief](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/RECRUITER_BRIEF.md)** — concise role alignment and interview-ready review path.
-- **[External validation kit](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/EXTERNAL_VALIDATION_KIT.md)** — ethical ProcessHarbor usability-study protocol.
-
-Commercial availability does not imply verified revenue, customers, active users, purchases, or completed acquisitions. Deterministic scores are heuristics rather than certified predictions. Local-first storage is not automatically encrypted, durable, or compliant.
-
-## Role alignment
-
-**Primary:** Applied AI Workflow Specialist · Technical Operations Specialist · Product Operations Associate · Knowledge Operations / Documentation Specialist
-
-**Adjacent:** AI Automation Specialist · Junior Technical Product Analyst · Frontend / Product Implementation · Research Operations
-
-## Core tools and methods
-
-React · TypeScript · Vite · Next.js · Zod · Vitest · Playwright · Canvas/SVG · localStorage / IndexedDB · deterministic workflow design · structured exports · CI verification · Vercel · technical documentation · human-in-the-loop AI boundaries
-
-For the complete source catalog, deployment map, verification guidance, and responsible-use limits, review the [AI Project Portfolio](https://github.com/atomicdjt/AI-Project-Portfolio).
+Follow along here on GitHub, review the [Five-minute guided walkthrough](https://ai-project-portfolio-portfolio-hub.vercel.app/review), or connect with me on [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2).
