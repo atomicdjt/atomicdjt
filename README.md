@@ -1,18 +1,18 @@
 # David Turner
 
-**I build local-first software, deterministic AI-assisted workflows, and technical-operations tools — then document what works, what fails, and what outside reviewers challenge.**
+**I'm David Turner (`atomicdjt`), an independent builder of practical, reviewable applied-AI workflows, local-first software, and technical-operations tools — with the implementation evidence, limitations, and outside criticism documented alongside the work.**
 
-I am an independent applied-AI and workflow builder interested in systems that are **inspectable, testable, useful, and honest about their limits**. My work sits at the intersection of local-first software, human-in-the-loop AI, workflow design, systems thinking, technical operations, documentation, and practical product development.
+I focus on systems that are **inspectable, testable, useful, and honest about their limits**. My work sits at the intersection of local-first software, human-in-the-loop AI, workflow design, systems thinking, technical operations, documentation, and practical product development.
 
 [Portfolio Hub](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [Five-minute review](https://ai-project-portfolio-portfolio-hub.vercel.app/review) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)
 
 ## Start here
 
-If you found me through a GitHub discussion, a shared project, or LinkedIn, these are the fastest ways to see what I actually build:
+If you found me through GitHub, search, a shared project, or LinkedIn, these are the fastest ways to see what I actually build:
 
-- **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** — local-first visual workflow canvas with portable projects, snapshots, browser validation, and consent-gated AI assistance. [Try it](https://weavestudio-nine.vercel.app/)
-- **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** — deterministic systems simulation with typed graph models, cascade analysis, reproducible reports, and an original stability heuristic. [Try it](https://buildworld-ai-v01-improvements.vercel.app/)
-- **[Validation Ledger](https://github.com/atomicdjt/validation-ledger)** — an experiment in making project claims, evidence, limitations, and external validation easier to inspect. [Try it](https://validation-ledger.vercel.app/)
+- **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** — local-first visual workflow canvas for turning messy research and client inputs into structured, reviewable, exportable deliverables. [Try it](https://weavestudio-nine.vercel.app/)
+- **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** — local-first systems simulation lab with typed graph models, cascade analysis, reproducible reports, and an original stability heuristic. [Try it](https://buildworld-ai-v01-improvements.vercel.app/)
+- **[Validation Ledger](https://github.com/atomicdjt/validation-ledger)** — local-first evidence workspace for traceable product discovery, project claims, limitations, and decision records. [Try it](https://validation-ledger.vercel.app/)
 
 ### Why follow this profile?
 
@@ -23,7 +23,7 @@ Current public work also includes:
 - **[ProcessHarbor](https://ai-project-portfolio-opspilot-ai-op.vercel.app/)** — technical-operations workflows for SOPs, onboarding, knowledge gaps, audits, versions, and export.
 - **[QuoteForge Local](https://quoteforge-local.vercel.app/)** — a commercial white-label quote-calculator package for agencies and local-service web implementers.
 
-If that overlaps with what you build or research, follow along here on GitHub or connect with me on LinkedIn.
+If that overlaps with what you build, research, recruit for, or need implemented, follow along here on GitHub, connect with me on LinkedIn, or use the email link above.
 
 ### I am actively looking for outside critique
 
@@ -42,10 +42,10 @@ Use the [guided review route](https://ai-project-portfolio-portfolio-hub.vercel.
 
 | Project | Evidence | Why it is worth reviewing |
 | --- | --- | --- |
-| **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** | [Live demo](https://buildworld-ai-v01-improvements.vercel.app/) · [Technical decision case study](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/TECHNICAL_DECISIONS.md#buildworld-ai-deterministic-systems-simulation) | Strongest technical-originality evidence: typed graph models, deterministic simulation engines, cascade analysis, reproducible reports, and an original stability heuristic. |
-| **[ProcessHarbor](https://ai-project-portfolio-opspilot-ai-op.vercel.app/)** | [Source](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/opspilot-ai-operations-toolkit) · [Validation plan](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/EXTERNAL_VALIDATION_KIT.md) | Strongest role-alignment evidence for technical operations, SOPs, onboarding, knowledge-base workflows, documentation gaps, audit events, versions, and export. |
-| **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** | [Product review](https://weavestudio-nine.vercel.app/) | Strongest end-to-end productization evidence: local-first workflow canvas, portable projects, snapshots, browser validation, consent-gated AI assistance, and buyer handoff materials. |
-| **[QuoteForge Local](https://quoteforge-local.vercel.app/)** | [Commercial product](https://quoteforge-local.vercel.app/) | Strongest commercial-execution evidence: typed quote logic, ten calculator templates, embeddable delivery, WordPress path, licensing, packaging, and buyer documentation. |
+| **[BuildWorld AI — systems simulation lab](https://github.com/atomicdjt/buildworld-ai)** | [Live demo](https://buildworld-ai-v01-improvements.vercel.app/) · [Technical decision case study](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/TECHNICAL_DECISIONS.md#buildworld-ai-deterministic-systems-simulation) | Strongest technical-originality evidence: typed graph models, deterministic simulation engines, cascade analysis, reproducible reports, and an original stability heuristic. |
+| **[ProcessHarbor — technical operations workspace](https://ai-project-portfolio-opspilot-ai-op.vercel.app/)** | [Source](https://github.com/atomicdjt/AI-Project-Portfolio/tree/main/apps/opspilot-ai-operations-toolkit) · [Validation plan](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/EXTERNAL_VALIDATION_KIT.md) | Strongest role-alignment evidence for technical operations, SOPs, onboarding, knowledge-base workflows, documentation gaps, audit events, versions, and export. |
+| **[WeaveStudio — local-first workflow canvas](https://github.com/atomicdjt/weavestudio)** | [Product review](https://weavestudio-nine.vercel.app/) | Strongest end-to-end productization evidence: local-first workflow canvas, portable projects, snapshots, browser validation, consent-gated AI assistance, and buyer handoff materials. |
+| **[QuoteForge Local — white-label quote calculator kit](https://quoteforge-local.vercel.app/)** | [Commercial product](https://quoteforge-local.vercel.app/) | Strongest commercial-execution evidence: typed quote logic, ten calculator templates, embeddable delivery, WordPress path, licensing, packaging, and buyer documentation. |
 
 Supporting specialization: **[ScamShield AI — Explainable Scam Analysis by David Turner](https://ai-project-portfolio-scamshield-ai.vercel.app/)** demonstrates local-first consumer-safety workflows, evidence organization, and explicit responsible-use boundaries.
 
