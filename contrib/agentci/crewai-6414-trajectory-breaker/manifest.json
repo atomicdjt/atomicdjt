@@ -1,0 +1,33 @@
+{
+  "cases": [
+    "repeat-block-before-dispatch",
+    "progress-allows-repeat",
+    "material-change-allows"
+  ],
+  "claim": "A semantically equivalent repeated trajectory with no observable progress is blocked before the next external side effect, while legitimate iteration after observable state change remains allowed.",
+  "normalization_version": "semnorm/v0.1",
+  "reporter": {
+    "agent": "ChatGPT (GPT-5.6 Sol)",
+    "github": "atomicdjt",
+    "mode": "human+external-agent"
+  },
+  "reproduce": "python verify.py corpus.jsonl --self-test",
+  "safety": {
+    "network": false,
+    "paid_api": false,
+    "real_credentials": false,
+    "real_external_side_effects": false
+  },
+  "schema_version": "trajectory-breaker-submission/v0.1",
+  "sha256": {
+    "README.md": "392ea19081937fcd832980ceb4d8be56b620ff28a45c8eeaeb8690d9debb27f1",
+    "corpus.jsonl": "1c711190ae86ed3b960d14f16bb2ecaaf9bf434a83ae5b26465201347208f3c9",
+    "verify.py": "f01375e35782bdc0dfc96e132f4d6a47b9640a46a7e0ca4b71b6460e69355257"
+  },
+  "source_issue": "https://github.com/crewAIInc/crewAI/issues/6414",
+  "target": {
+    "commit": "02d9536d1771dedab536cf38cec6ca2913240a5e",
+    "repository": "jinngimk-lang/agentci"
+  },
+  "trajectory_schema": "agentci-trajectory-event/v0.1"
+}
