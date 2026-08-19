@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - qa/weavestudio-production-smoke-20260819
+  pull_request:
+    branches:
+      - main
 
 jobs:
   production-smoke:
