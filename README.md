@@ -39,6 +39,15 @@ These are the fastest ways to see what I actually build. Each project emphasizes
 
 ---
 
+## 🌐 Open-Source Contributions & External Review
+
+I also contribute focused fixes upstream when my work intersects with established open-source projects. These links are public review artifacts rather than implied endorsements.
+
+- **[Rosetta PR #299 — merged upstream](https://github.com/griddynamics/rosetta/pull/299):** expanded a dangerous-action guard to catch equivalent `git branch` force-delete forms while preserving safe commands. The maintainer independently stress-tested the change with a hand-built matrix, randomized differential fuzzing, real Git execution, the full test suite, and mutation testing before approving and merging it.
+- **[OpenClaw PR #125740 — maintainer review pending](https://github.com/openclaw/openclaw/pull/125740):** repairs Skill Workshop routing-description provenance across persistence, legacy migration, revise/apply behavior, and public/model output boundaries. Automated review reports no remaining contributor-facing correctness finding; the remaining decision is maintainer-owned upgrade policy and merge timing.
+
+---
+
 ## 🔬 What The Portfolio Demonstrates
 
 - **Problem Framing:** Identifies users, workflows, constraints, non-goals, and success criteria before implementation.
