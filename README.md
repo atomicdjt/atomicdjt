@@ -26,17 +26,20 @@ I contribute focused fixes and technical analysis upstream when the work interse
 ### Merged upstream
 
 - **[Grid Dynamics Rosetta PR #299](https://github.com/griddynamics/rosetta/pull/299)** — expanded a dangerous-action guard to catch equivalent `git branch` force-delete forms while preserving safe commands. A maintainer independently stress-tested the change with a hand-built matrix, randomized differential fuzzing, real Git execution, the repository test suite, and mutation testing before approving and merging it.
+- **[Super Productivity PR #9619](https://github.com/super-productivity/super-productivity/pull/9619)** — keeps section-visible task ordering synchronized with persistent Move Up/Down/To Top/To Bottom actions using the existing reducer architecture. The contribution was merged upstream on August 21, 2026.
 
-### Independently pressure-tested / under review
+### Independently pressure-tested / still open
 
 - **[Rosetta PR #319](https://github.com/griddynamics/rosetta/pull/319)** — dataset lookup ambiguity hardening plus authorization cleanup. Independent review reproduced validation, ran multiple refutation attempts, validated the live-path ambiguity fix, and requested a legitimate scope correction to remove obsolete authorization behavior.
 - **[Rosetta PR #320](https://github.com/griddynamics/rosetta/pull/320)** — removes a quadratic dangerous-command matcher path. Independent review compared millions of generated inputs with zero divergence and reproduced the O(n²) → approximately linear performance improvement before requesting additional cross-line coverage/comments.
-- **[OpenClaw PR #125740](https://github.com/openclaw/openclaw/pull/125740)** — repairs Skill Workshop routing-description provenance across persistence, revise/apply behavior, legacy migration, and bounded public/model output. Repository-side review found no contributor-facing correctness defect while reserving a compatibility-policy decision for maintainers.
-- **[Super Productivity PR #9619](https://github.com/super-productivity/super-productivity/pull/9619)** — keeps section task ordering consistent with persistent move actions using the existing reducer architecture.
+
+### Reviewed but not merged
+
+- **[OpenClaw PR #125740](https://github.com/openclaw/openclaw/pull/125740)** — addressed Skill Workshop routing-description provenance across persistence, revise/apply behavior, legacy migration, and bounded public/model output. Repository-side automated review found no contributor-facing correctness defect while reserving a compatibility-policy decision for maintainers. The PR was closed on August 20, 2026 without merge or recorded human approval, so I do not present it as accepted upstream.
 
 ### External reuse, critique, and collaboration
 
-My public corroboration record also separates stronger and weaker signals rather than collapsing them into one “validation” bucket. Examples include:
+My public corroboration record separates stronger and weaker signals rather than collapsing them into one “validation” bucket. Examples include:
 
 - an external contributor implementing a falsification technique I proposed in their own conformance suite after it exposed vacuous invariants;
 - substantive source-level validation and continued technical discussion in CrewAI;
@@ -44,7 +47,7 @@ My public corroboration record also separates stronger and weaker signals rather
 - preliminary local-first curation review of WeaveStudio;
 - specialist graph-visualization critique of BuildWorld AI with permission to attribute the feedback publicly.
 
-**[Review the conservative external-corroboration record](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/external-corroboration.md)**
+**[Review the conservative external-corroboration record](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/discovery/external-corroboration.md)**
 
 ---
 
@@ -75,7 +78,7 @@ Supporting evidence:
 - **[Portfolio evidence dossier](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/PORTFOLIO_EVIDENCE.md)**
 - **[Technical decisions](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/TECHNICAL_DECISIONS.md)**
 - **[Recruiter brief](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/RECRUITER_BRIEF.md)**
-- **[External corroboration](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/external-corroboration.md)**
+- **[External corroboration](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/discovery/external-corroboration.md)**
 
 Commercial availability does not imply verified revenue, customers, active users, purchases, or completed acquisitions. Deterministic scores are heuristics rather than certified predictions. Local-first storage is not automatically encrypted, durable, synchronized, or compliant.
 
