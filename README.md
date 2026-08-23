@@ -11,7 +11,7 @@ I build local-first tools, deterministic AI-assisted workflows, and technical sy
 | Project | What it demonstrates | Try / inspect |
 | --- | --- | --- |
 | **[Validation Ledger](https://github.com/atomicdjt/validation-ledger)** | Local-first customer evidence → hypothesis → decision traceability, explicit counterevidence, inspectable scoring | [Live demo](https://validation-ledger.vercel.app/) · [Challenge the evidence model](https://github.com/atomicdjt/validation-ledger/issues/10) |
-| **[Agent Session Bridge](https://github.com/atomicdjt/agent-session-bridge)** | Provider-neutral coding-agent session exchange, ASEF canonicalization, fidelity/loss accounting, Claude Code import | [Repository](https://github.com/atomicdjt/agent-session-bridge) · [Contributor issues](https://github.com/atomicdjt/agent-session-bridge/issues) |
+| **[Agent Session Bridge](https://github.com/atomicdjt/agent-session-bridge)** | ATIF v1.7 coding-agent trajectory interchange, namespaced fidelity/loss accounting, Claude Code normalization, explicit target-resumption boundaries | [Repository](https://github.com/atomicdjt/agent-session-bridge) · [Contributor issues](https://github.com/atomicdjt/agent-session-bridge/issues) |
 | **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** | Deterministic graph simulation, cascades, reproducibility metadata, stability heuristics | [Live demo](https://buildworld-ai-v01-improvements.vercel.app/) · [Challenge the visualization/model boundary](https://github.com/atomicdjt/buildworld-ai/issues/16) |
 | **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** | Local-first visual workflows, claim-to-source provenance, human review gates, portable project exports | [Live demo](https://weavestudio-nine.vercel.app/) · [Candid feedback](https://github.com/atomicdjt/weavestudio/issues/21) |
 
@@ -30,8 +30,8 @@ I contribute focused fixes and technical analysis upstream when the work interse
 
 ### Independently pressure-tested / still open
 
-- **[Rosetta PR #319](https://github.com/griddynamics/rosetta/pull/319)** — dataset lookup ambiguity hardening plus authorization cleanup. Independent review reproduced validation, ran multiple refutation attempts, validated the live-path ambiguity fix, and requested a legitimate scope correction to remove obsolete authorization behavior.
-- **[Rosetta PR #320](https://github.com/griddynamics/rosetta/pull/320)** — removes a quadratic dangerous-command matcher path. Independent review compared millions of generated inputs with zero divergence and reproduced the O(n²) → approximately linear performance improvement before requesting additional cross-line coverage/comments.
+- **[Rosetta PR #319](https://github.com/griddynamics/rosetta/pull/319)** — dataset lookup ambiguity hardening plus cleanup of obsolete authorization behavior. Independent review validated the live-path ambiguity fix, identified the stale `team`-policy target, and requested that scope correction; the obsolete path/docs were removed and the PR is now ready for maintainer re-review.
+- **[Rosetta PR #320](https://github.com/griddynamics/rosetta/pull/320)** — removes a quadratic dangerous-command matcher path. A maintainer compared roughly 5.5 million generated inputs with zero reported divergence and reproduced the performance improvement; the requested cross-line regression coverage and explanatory comments were subsequently added, and the PR is ready for re-review.
 
 ### Reviewed but not merged
 
