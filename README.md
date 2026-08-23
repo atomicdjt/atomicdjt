@@ -4,7 +4,7 @@
 
 I build local-first tools, deterministic AI-assisted workflows, and technical systems with an emphasis on **inspectability, reproducibility, human review, and honest failure boundaries**.
 
-**[Portfolio](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)**
+**[Portfolio](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [Writing](writing/your-ai-agent-finished-the-task.md) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)**
 
 ## Start here
 
@@ -16,6 +16,10 @@ I build local-first tools, deterministic AI-assisted workflows, and technical sy
 | **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** | Local-first visual workflows, claim-to-source provenance, human review gates, portable project exports | [Live demo](https://weavestudio-nine.vercel.app/) · [Candid feedback](https://github.com/atomicdjt/weavestudio/issues/21) |
 
 Commercial work also includes **[QuoteForge Local](https://quoteforge-local.vercel.app/)**, a white-label quote-calculator package for agencies and local-service implementers.
+
+## Featured writing
+
+- **[Your AI Agent Finished the Task. What Did It Actually Prove?](writing/your-ai-agent-finished-the-task.md)** — a practical framework for separating artifact, behavioral, state/provenance, boundary, and independent evidence when AI agents do technical work. The article uses concrete cases where a green or apparently complete state was still narrower than the claim that mattered.
 
 ---
 
