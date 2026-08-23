@@ -41,7 +41,7 @@ I now try to ask a sequence of narrower questions:
 1. **Did the implementation change?**
 2. **Does the intended behavior execute?**
 3. **Do tests exercise the failure mode rather than merely the happy path?**
-4. **Did the external state actually change?**
+4. **Does the external state match the intended result, and what observation proves it?**
 5. **Does the stored/output data satisfy the privacy and fidelity contract?**
 6. **Did independent evidence challenge or corroborate the claim?**
 7. **What still remains unproven?**
@@ -104,15 +104,15 @@ So the correct claim is deliberately narrower than the tempting one.
 
 ## Example 3: external review can falsify the premise, not just the patch
 
-In an open-source contribution to Rosetta, one maintainer response was especially useful because it challenged the target of the work itself.
+In [Rosetta PR #319](https://github.com/griddynamics/rosetta/pull/319), one maintainer response was especially useful because it challenged the target of the work itself.
 
 The analysis around an authorization path was reasonable, but the specific `team`-policy behavior I was changing turned out to be dead code. The maintainer's response effectively said: the reasoning checks out, but this is not the live boundary you think it is.
 
 That is not a cosmetic review comment. It is evidence that the implementation premise needs to change.
 
-The right response was to remove the stale policy path and preserve only the live behavior that still mattered.
+The right response was to remove the stale policy path and preserve only the live behavior that still mattered. The maintainer formally requested that change; the current PR incorporates it and remains open and unmerged, awaiting maintainer re-review.
 
-On another Rosetta contribution, a maintainer independently pressure-tested a performance optimization across roughly 5.5 million inputs, reported zero divergences, and reproduced the speed improvement. That is much stronger evidence than my own benchmark alone—but it still does not mean the PR is merged or adopted. The lifecycle state remains **independently corroborated and awaiting maintainer review**.
+On [Rosetta PR #320](https://github.com/griddynamics/rosetta/pull/320), a maintainer independently pressure-tested a performance optimization across roughly 5.5 million inputs, reported zero divergences, and reproduced the speed improvement. The same review requested targeted cross-line and same-segment regression coverage plus explanatory invariants; those changes were subsequently added. The PR also remains open and unmerged. The strongest accurate lifecycle claim is therefore **independently corroborated, requested changes addressed, awaiting maintainer re-review**—not merged or adopted.
 
 Good evidence makes claims more precise in both directions. Sometimes it strengthens confidence. Sometimes it narrows the conclusion.
 
@@ -178,7 +178,7 @@ A useful receipt contains:
 
 **Change** — What implementation or system state changed?
 
-**Verification** — What test would have failed if the change were wrong?
+**Verification** — What check actually ran, what result did it produce, and what failure boundary would have exposed an incorrect change?
 
 **Boundary observation** — What real external state was inspected, if applicable?
 
