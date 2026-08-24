@@ -30,12 +30,10 @@ I contribute focused fixes and technical analysis upstream when the work interse
 ### Merged upstream
 
 - **[Grid Dynamics Rosetta PR #299](https://github.com/griddynamics/rosetta/pull/299)** — expanded a dangerous-action guard to catch equivalent `git branch` force-delete forms while preserving safe commands. A maintainer independently stress-tested the change with a hand-built matrix, randomized differential fuzzing, real Git execution, the repository test suite, and mutation testing before approving and merging it.
+- **[Rosetta PR #319](https://github.com/griddynamics/rosetta/pull/319)** — hardened dataset lookup ambiguity and removed obsolete authorization behavior after review showed the originally targeted `team` policy was dead code. Requested code/documentation corrections were addressed, the final head was re-verified and approved, and the PR merged upstream on August 24, 2026.
+- **[Rosetta PR #320](https://github.com/griddynamics/rosetta/pull/320)** — removed a quadratic dangerous-command matcher path. A maintainer independently pressure-tested the change across millions of inputs, reproduced the performance improvement, requested targeted regressions/invariant comments, then re-verified and approved the corrected head before merge on August 24, 2026.
+- **[Rosetta PR #322](https://github.com/griddynamics/rosetta/pull/322)** — added focused CLI regression coverage for dataset-name resolution. After review identified two test-fixture gaps, both were corrected and mutation-checked; the contribution was approved and merged on August 24, 2026.
 - **[Super Productivity PR #9619](https://github.com/super-productivity/super-productivity/pull/9619)** — keeps section-visible task ordering synchronized with persistent Move Up/Down/To Top/To Bottom actions using the existing reducer architecture. The contribution was merged upstream on August 21, 2026.
-
-### Independently pressure-tested / still open
-
-- **[Rosetta PR #319](https://github.com/griddynamics/rosetta/pull/319)** — dataset lookup ambiguity hardening plus cleanup of obsolete authorization behavior. Independent review validated the live-path ambiguity fix, identified the stale `team`-policy target, and requested that scope correction; the obsolete path/docs were removed and the PR is now ready for maintainer re-review.
-- **[Rosetta PR #320](https://github.com/griddynamics/rosetta/pull/320)** — removes a quadratic dangerous-command matcher path. A maintainer compared roughly 5.5 million generated inputs with zero reported divergence and reproduced the performance improvement; the requested cross-line regression coverage and explanatory comments were subsequently added, and the PR is ready for re-review.
 
 ### Reviewed but not merged
 
