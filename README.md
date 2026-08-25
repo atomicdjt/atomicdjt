@@ -4,7 +4,7 @@
 
 I build local-first tools, deterministic AI-assisted workflows, and technical systems with an emphasis on **inspectability, reproducibility, human review, and honest failure boundaries**.
 
-**[Portfolio](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [Writing](writing/your-ai-agent-finished-the-task.md) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)**
+**[Portfolio](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [Writing](writing/) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)**
 
 ## Start here
 
@@ -19,6 +19,7 @@ Commercial work also includes **[QuoteForge Local](https://quoteforge-local.verc
 
 ## Featured writing
 
+- **[From Claude Code JSONL to ATIF v1.7: What Actually Survives an Agent Handoff?](writing/from-claude-code-jsonl-to-atif-v1-7.md)** — a technical examination of trajectory portability, fidelity/loss accounting, structured tool-result normalization, redaction, and the boundary between a portable ATIF trajectory and unsupported native target-session resumption.
 - **[Your AI Agent Finished the Task. What Did It Actually Prove?](writing/your-ai-agent-finished-the-task.md)** — a practical framework for separating artifact, behavioral, state/provenance, boundary, and independent evidence when AI agents do technical work. The article uses concrete cases where a green or apparently complete state was still narrower than the claim that mattered.
 
 ---
