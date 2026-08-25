@@ -7,7 +7,7 @@
 
 ## Abstract
 
-[Grid Dynamics Rosetta PR #320](https://github.com/griddynamics/rosetta/pull/320) removed quadratic backtracking from a `PreToolUse` dangerous-command matcher. A maintainer re-verified it independently across roughly 5.5 million inputs across two rounds and merged it. That outcome had less to do with the fix being clever and more to do with the description making the fix cheap to review. This is the structure, why each section exists, and what it would have cost the reviewer if a section had been missing.
+[Grid Dynamics Rosetta PR #320](https://github.com/griddynamics/rosetta/pull/320) removed quadratic backtracking from a `PreToolUse` dangerous-command matcher. A maintainer independently verified it against 5,535,953 inputs in the first round, then re-verified the corrected head against a further 1,645,410 differential cases before merging it. That outcome had less to do with the fix being clever and more to do with the description making the fix cheap to review. This is the structure, why each section exists, and what it would have cost the reviewer if a section had been missing.
 
 ---
 
