@@ -1,6 +1,6 @@
 # David Turner
 
-I ship correctness, security, and performance fixes into other people's production code, and build local-first tools with the same verification discipline.
+I ship correctness, security, and performance fixes into established open-source codebases, and build local-first tools with the same verification discipline.
 
 **[Portfolio](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [Writing](writing/) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)**
 
