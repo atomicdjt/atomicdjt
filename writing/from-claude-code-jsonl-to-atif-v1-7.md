@@ -96,7 +96,7 @@ That is preferable to quietly smuggling ASB-specific concepts into ATIF core fie
 
 Interchange systems can fail in a particularly dangerous way: they can produce valid output while silently discarding information.
 
-A valid JSON document tells you that the output matches a schema. It does not tell you that the source survived the conversion intact.
+A schema-valid JSON document tells you that the output matches a schema. It does not tell you that the source survived the conversion intact.
 
 ASB therefore treats fidelity accounting as a first-class conversion concern.
 
@@ -139,7 +139,7 @@ Agent Session Bridge also includes an optional downstream projection from ATIF i
 
 That creates another opportunity to overclaim.
 
-A historical transcript can establish that an event occurred and may preserve a source timestamp. It does not necessarily contain the same timing information that would have been measured by live runtime instrumentation.
+A historical transcript can establish that the source recorded an event and may preserve a source timestamp. It does not necessarily contain the same timing information that would have been measured by live runtime instrumentation.
 
 So the observability path is described as a **historical structural projection**, not original runtime telemetry.
 
