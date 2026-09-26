@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">David Turner — systems, verification, and AI-assisted engineering</title>
+  <desc id="desc">Premium dark technical banner with layered grid, evidence chips, and a verification network.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050a12"/>
+      <stop offset="0.46" stop-color="#091426"/>
+      <stop offset="1" stop-color="#101429"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="78%" cy="43%" r="42%">
+      <stop offset="0" stop-color="#2563eb" stop-opacity=".20"/>
+      <stop offset=".52" stop-color="#7c3aed" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset=".48" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1a2d" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#0a1020" stop-opacity=".96"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#93c5fd" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="430" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="28" fill="url(#grid)"/>
+  <rect width="1200" height="430" rx="28" fill="url(#halo)"/>
+  <rect x="1" y="1" width="1198" height="428" rx="27" fill="none" stroke="#64748b" stroke-opacity=".30"/>
+  <rect x="24" y="24" width="1152" height="382" rx="22" fill="none" stroke="#94a3b8" stroke-opacity=".08"/>
+
+  <g transform="translate(60,53)">
+    <rect width="164" height="26" rx="13" fill="#082f49" stroke="#22d3ee" stroke-opacity=".35"/>
+    <circle cx="16" cy="13" r="4" fill="#22d3ee"/>
+    <text x="30" y="18" fill="#a5f3fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.2">ENGINEERING PROFILE</text>
+  </g>
+
+  <text x="58" y="142" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="850" letter-spacing=".8">DAVID TURNER</text>
+  <rect x="60" y="160" width="476" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="60" y="198" fill="#bfdbfe" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2.6">SYSTEMS · VERIFICATION · OPEN SOURCE · AI OPERATIONS</text>
+
+  <text x="60" y="246" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">
+    Building inspectable systems and evidence-backed technical work
+  </text>
+  <text x="60" y="274" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">
+    where correctness, provenance, and review matter.
+  </text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700">
+    <g transform="translate(60,311)">
+      <rect width="140" height="39" rx="10" fill="#081d2d" stroke="#22d3ee" stroke-opacity=".35"/>
+      <text x="15" y="16" fill="#67e8f9">MERGED UPSTREAM</text>
+      <text x="15" y="31" fill="#f8fafc" font-size="13">5 CONTRIBUTIONS</text>
+    </g>
+    <g transform="translate(212,311)">
+      <rect width="160" height="39" rx="10" fill="#0b1930" stroke="#3b82f6" stroke-opacity=".35"/>
+      <text x="15" y="16" fill="#93c5fd">VERIFIED SCALING</text>
+      <text x="15" y="31" fill="#f8fafc" font-size="13">O(n²) → O(n)</text>
+    </g>
+    <g transform="translate(384,311)">
+      <rect width="174" height="39" rx="10" fill="#15152d" stroke="#8b5cf6" stroke-opacity=".35"/>
+      <text x="15" y="16" fill="#c4b5fd">FEATURED SYSTEMS</text>
+      <text x="15" y="31" fill="#f8fafc" font-size="13">4 INSPECTABLE BUILDS</text>
+    </g>
+  </g>
+
+  <text x="60" y="386" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5">
+    evidence &gt; assertion   •   verify &gt; assume   •   claims stay inside the proof
+  </text>
+
+  <g transform="translate(690,52)">
+    <rect x="0" y="0" width="450" height="322" rx="22" fill="url(#panel)" stroke="#64748b" stroke-opacity=".18"/>
+    <text x="26" y="35" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.6">VERIFICATION NETWORK / LIVE MODEL</text>
+    <line x1="26" y1="50" x2="424" y2="50" stroke="#334155" stroke-opacity=".7"/>
+
+    <g transform="translate(225,177)">
+      <circle r="84" fill="none" stroke="#3b82f6" stroke-opacity=".13"/>
+      <circle r="55" fill="none" stroke="#8b5cf6" stroke-opacity=".16" stroke-dasharray="4 7"/>
+      <circle r="32" fill="#0b223d" stroke="#60a5fa" stroke-opacity=".62"/>
+      <text y="-4" text-anchor="middle" fill="#e0f2fe" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">CLAIM</text>
+      <text y="12" text-anchor="middle" fill="#93c5fd" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700">SURVIVES</text>
+    </g>
+
+    <g stroke-width="1.8" fill="none">
+      <path d="M225 145 L114 95 L64 152" stroke="#22d3ee" stroke-opacity=".62"/>
+      <path d="M257 163 L349 104 L399 146" stroke="#3b82f6" stroke-opacity=".62"/>
+      <path d="M205 207 L114 258 L59 227" stroke="#8b5cf6" stroke-opacity=".62"/>
+      <path d="M257 197 L342 258 L401 223" stroke="#22d3ee" stroke-opacity=".62"/>
+      <path d="M114 95 L349 104" stroke="#334155" stroke-dasharray="4 6"/>
+      <path d="M64 152 L59 227" stroke="#334155" stroke-dasharray="4 6"/>
+      <path d="M399 146 L401 223" stroke="#334155" stroke-dasharray="4 6"/>
+    </g>
+
+    <g filter="url(#glow)">
+      <circle cx="114" cy="95" r="5.5" fill="#22d3ee"/>
+      <circle cx="64" cy="152" r="5" fill="#3b82f6"/>
+      <circle cx="59" cy="227" r="5" fill="#8b5cf6"/>
+      <circle cx="114" cy="258" r="5.5" fill="#60a5fa"/>
+      <circle cx="349" cy="104" r="5.5" fill="#8b5cf6"/>
+      <circle cx="399" cy="146" r="5" fill="#22d3ee"/>
+      <circle cx="401" cy="223" r="5.5" fill="#3b82f6"/>
+      <circle cx="342" cy="258" r="5" fill="#8b5cf6"/>
+    </g>
+
+    <g fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">
+      <text x="78" y="80">PROVENANCE</text>
+      <text x="29" y="143">TESTS</text>
+      <text x="25" y="247">LIMITS</text>
+      <text x="324" y="89">REVIEW</text>
+      <text x="379" y="132">TRACE</text>
+      <text x="369" y="244">EVIDENCE</text>
+    </g>
+
+    <g transform="translate(26,286)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5">
+      <circle cx="4" cy="4" r="4" fill="#22c55e"/>
+      <text x="16" y="8" fill="#86efac">REPRODUCIBLE</text>
+      <text x="128" y="8" fill="#64748b">/</text>
+      <circle cx="148" cy="4" r="4" fill="#22d3ee"/>
+      <text x="160" y="8" fill="#a5f3fc">INSPECTABLE</text>
+      <text x="272" y="8" fill="#64748b">/</text>
+      <circle cx="292" cy="4" r="4" fill="#8b5cf6"/>
+      <text x="304" y="8" fill="#ddd6fe">REVIEWABLE</text>
+    </g>
+  </g>
+</svg>
