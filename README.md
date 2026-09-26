@@ -110,6 +110,8 @@ My strongest credibility signal is not repository count or self-reported experti
 
 <sub>Transparency: <a href="https://github.com/openclaw/openclaw/pull/125740">OpenClaw #125740</a> was closed without merge or recorded human approval. I do not present it as accepted upstream work.</sub>
 
+> **Repository taxonomy:** the repositories presented as original systems use the shared portfolio identity. Public forks used for upstream contribution work intentionally retain their upstream branding and history rather than being styled as original projects.
+
 ## Engineering method
 
 <img src="./assets/verification-workflow.svg" alt="Verification-oriented engineering workflow" width="100%" />
