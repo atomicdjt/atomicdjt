@@ -39,7 +39,7 @@ ATIF v1.7 reference implementation with namespaced fidelity/loss accounting, Cla
 
 <br /><br />
 
-<a href="https://github.com/atomicdjt/agent-session-bridge"><b>Source →</b></a> &nbsp;·&nbsp; <a href="https://github.com/atomicdjt/agent-session-bridge/issues">Issues</a>
+<a href="https://github.com/atomicdjt/trajectory-fidelity-bridge"><b>Source →</b></a> &nbsp;·&nbsp; <a href="https://github.com/atomicdjt/trajectory-fidelity-bridge/issues">Issues</a> &nbsp;·&nbsp; <a href="https://pypi.org/project/atomicdjt-trajectory-fidelity-bridge/">PyPI</a>
 
 </td>
 <td width="50%" valign="top">

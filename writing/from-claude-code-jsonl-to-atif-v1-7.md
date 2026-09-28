@@ -6,7 +6,7 @@ When that history has to move somewhere else, a prose summary is convenient—bu
 
 That distinction is the reason I built **Agent Session Bridge**.
 
-**[Canonical project overview](https://ai-project-portfolio-portfolio-hub.vercel.app/projects/agent-session-bridge) · [Source](https://github.com/atomicdjt/agent-session-bridge) · [ATIF specification](https://github.com/harbor-framework/harbor/blob/main/rfcs/0001-trajectory-format.md)**
+**[Canonical project overview](https://ai-project-portfolio-portfolio-hub.vercel.app/projects/agent-session-bridge) · [Source](https://github.com/atomicdjt/trajectory-fidelity-bridge) · [ATIF specification](https://github.com/harbor-framework/harbor/blob/main/rfcs/0001-trajectory-format.md)**
 
 Agent Session Bridge is an MIT-licensed reference implementation that converts supported coding-agent transcripts into the public **Agent Trajectory Interchange Format (ATIF) v1.7**. It does not define a competing interchange standard. Its narrower job is to handle provider-specific parsing, expose conversion fidelity, apply best-effort redaction, and build target-specific mappings without pretending that every target can resume imported history as native state.
 
@@ -192,11 +192,11 @@ Useful critiques include:
 
 The project maintains its current mapping and boundary documentation in the source repository:
 
-- [ATIF interchange and ASB extension profile](https://github.com/atomicdjt/agent-session-bridge/blob/main/docs/FORMAT.md)
-- [Architecture](https://github.com/atomicdjt/agent-session-bridge/blob/main/docs/ARCHITECTURE.md)
-- [Observability notes](https://github.com/atomicdjt/agent-session-bridge/blob/main/docs/OBSERVABILITY.md)
-- [Historical observability write-up](https://github.com/atomicdjt/agent-session-bridge/blob/main/docs/HISTORICAL_OBSERVABILITY_WRITEUP.md)
-- [Open contributor issues](https://github.com/atomicdjt/agent-session-bridge/issues)
+- [ATIF interchange and ASB extension profile](https://github.com/atomicdjt/trajectory-fidelity-bridge/blob/main/docs/FORMAT.md)
+- [Architecture](https://github.com/atomicdjt/trajectory-fidelity-bridge/blob/main/docs/ARCHITECTURE.md)
+- [Observability notes](https://github.com/atomicdjt/trajectory-fidelity-bridge/blob/main/docs/OBSERVABILITY.md)
+- [Historical observability write-up](https://github.com/atomicdjt/trajectory-fidelity-bridge/blob/main/docs/HISTORICAL_OBSERVABILITY_WRITEUP.md)
+- [Open contributor issues](https://github.com/atomicdjt/trajectory-fidelity-bridge/issues)
 
 The broader principle is simple: **portability claims should be proportional to the evidence retained during conversion.**
 
