@@ -29,7 +29,7 @@
 <tr>
 <td width="50%" valign="top">
 
-<h3>↔️ Agent Session Bridge</h3>
+<h3>↔️ Trajectory Fidelity Bridge</h3>
 
 **Portable coding-agent trajectories without pretending portability is native resumption.**
 
