@@ -90,6 +90,23 @@ A visual simulation lab with graph-based propagation, stability heuristics, repr
 
 </td>
 </tr>
+  <tr>
+  <td colspan="2" valign="top">
+
+  <h3>🔭 Cosmic Atlas Scientific</h3>
+
+  **An offline astronomy atlas with source-level provenance and explicit scientific limits.**
+
+  The v5.1.0 standalone release includes a curated Gaia DR3 catalog and runs locally in a browser without a server or API key.
+
+  <sub><b>JavaScript · WebGL · Python · Gaia DR3</b></sub>
+
+  <br /><br />
+
+  <a href="https://github.com/atomicdjt/cosmic-atlas-scientific"><b>Source →</b></a> &nbsp;·&nbsp; <a href="https://github.com/atomicdjt/cosmic-atlas-scientific/releases/latest">v5.1.0 release</a>
+
+  </td>
+  </tr>
 </table>
 
 ## External proof: upstream engineering
