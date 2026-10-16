@@ -15,6 +15,8 @@
 
 <sub>Software, open-source contributions, and technical writing centered on verification, provenance, explicit limits, and reviewable evidence.</sub>
 
+[**Current work & evidence index**](docs/CURRENT_WORK.md) · [**Eight merged upstream contributions**](writing/external-validation-upstream-review.md) · [**Attributed AgentMeasure collaboration**](writing/agentmeasure-inference-boundary.md)
+
 </div>
 
 <br />
@@ -97,9 +99,9 @@ A visual simulation lab with graph-based propagation, stability heuristics, repr
 
   **An offline astronomy atlas with source-level provenance and explicit scientific limits.**
 
-  The v5.1.0 standalone release includes a curated Gaia DR3 catalog and runs locally in a browser without a server or API key.
+  The current main branch adds the v6 scientific workspace: offline JPL Horizons/DE441 states, numerical propagation, Lambert transfers, and local HEALPix catalogs. The frozen v5.1.0 package remains the latest formal release.
 
-  <sub><b>JavaScript · WebGL · Python · Gaia DR3</b></sub>
+  <sub><b>JavaScript · WebGL · Python · Gaia DR3 · JPL Horizons · HEALPix</b></sub>
 
   <br /><br />
 
@@ -113,17 +115,28 @@ A visual simulation lab with graph-based propagation, stability heuristics, repr
 
 My strongest credibility signal is not repository count or self-reported expertise; it is work that survived outside review.
 
+**Eight pull requests merged into two external projects**, checked October 15, 2026. The scope of each accepted contribution is linked below.
+
 | PR | Project | What changed | Result |
 | --- | --- | --- | --- |
 | [#320](https://github.com/griddynamics/rosetta/pull/320) | Grid Dynamics Rosetta | Removed quadratic backtracking from a dangerous-command matcher | **Merged** after independent equivalence, scaling, and mutation checks |
 | [#319](https://github.com/griddynamics/rosetta/pull/319) | Grid Dynamics Rosetta | Removed unreachable authorization behavior and hardened dataset lookup | **Merged** after substantive review and correction |
 | [#322](https://github.com/griddynamics/rosetta/pull/322) | Grid Dynamics Rosetta | Added regression coverage for dataset-name resolution branches | **Merged** after fixture gaps were identified and corrected |
 | [#299](https://github.com/griddynamics/rosetta/pull/299) | Grid Dynamics Rosetta | Extended a dangerous-action guard to equivalent force-delete forms | **Merged** |
-| [#9619](https://github.com/johannesjo/super-productivity/pull/9619) | super-productivity | Kept visible task order synchronized with persistent movement actions | **Merged** |
+| [#338](https://github.com/griddynamics/rosetta/pull/338) | Grid Dynamics Rosetta | Bounded command evaluations and terminated descendant processes on timeout | **Merged** September 29, 2026 |
+| [#339](https://github.com/griddynamics/rosetta/pull/339) | Grid Dynamics Rosetta | Restricted the MultiEdit review override to content actually being written | **Merged** September 29, 2026 |
+| [#9619](https://github.com/super-productivity/super-productivity/pull/9619) | super-productivity | Kept visible task order synchronized with persistent movement actions | **Merged** |
+| [#10126](https://github.com/super-productivity/super-productivity/pull/10126) | super-productivity | Stopped the schedule day panel from repeatedly snapping back to the current time | **Merged** September 25, 2026 |
 
 > **Rosetta #320 is the clearest proof point.** A reviewer independently checked equivalence across roughly **5.5 million inputs**, then re-verified the corrected head across **1.6+ million differential cases** after review changes. The review also reproduced the **O(n²) → O(n)** scaling and mutation-checked the verification harness.
 
 **[Read the external-validation case study →](writing/external-validation-upstream-review.md)**
+
+### Attributed technical collaboration
+
+**AgentMeasure publicly credits David Turner (@atomicdjt)** in [DR-005](https://github.com/roy-tong/AgentMeasure/blob/main/design-rationale/DR-005-evidence-calibrated-consumption-claims.md) for the provider-inference boundary: client telemetry can establish what was serialized as sent while leaving what reached provider inference unresolved. Its [evidence directory](https://github.com/roy-tong/AgentMeasure/tree/main/conformance/evidence/inference-boundary-aggregation-replay) also contains my attributed synthetic fixture for preserving ambiguity between measured and replayed aggregation.
+
+**[Read the contribution and its limits →](writing/agentmeasure-inference-boundary.md)**
 
 <sub>Transparency: <a href="https://github.com/openclaw/openclaw/pull/125740">OpenClaw #125740</a> was closed without merge or recorded human approval. I do not present it as accepted upstream work.</sub>
 

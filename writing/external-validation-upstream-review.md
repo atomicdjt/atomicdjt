@@ -2,7 +2,7 @@
 
 Self-directed projects show what I can build. Upstream review shows what happens when somebody else controls acceptance.
 
-This note records the strongest public third-party validation of my technical work as of September 2026: five merged contributions across Grid Dynamics' Rosetta project and super-productivity, including four Rosetta pull requests that went through repository-owned review and CI before merge.
+Checked October 15, 2026. This note records eight merged contributions across Grid Dynamics' Rosetta project and super-productivity: six Rosetta pull requests and two super-productivity fixes. Each link below identifies an accepted, scoped contribution.
 
 The claim is deliberately narrow. A merged pull request is evidence that a specific contribution survived an external project's review process. It is not a blanket endorsement of my portfolio, seniority, or every technical judgment I make.
 
@@ -15,6 +15,11 @@ The claim is deliberately narrow. A merged pull request is evidence that a speci
 | [Rosetta #320](https://github.com/griddynamics/rosetta/pull/320) | Security-critical matcher performance/correctness | Independently differential-tested, revised, approved, merged |
 | [Rosetta #322](https://github.com/griddynamics/rosetta/pull/322) | Dataset-name resolution regression coverage | Review gaps corrected, mutation-checked, merged |
 | [super-productivity #9619](https://github.com/super-productivity/super-productivity/pull/9619) | Section-visible task ordering | Regression fix merged upstream |
+| [Rosetta #338](https://github.com/griddynamics/rosetta/pull/338) | Configurable command-evaluator timeout and descendant-process termination | Merged September 29, 2026 |
+| [Rosetta #339](https://github.com/griddynamics/rosetta/pull/339) | MultiEdit review-marker source restricted to newly written content | Merged September 29, 2026 |
+| [super-productivity #10126](https://github.com/super-productivity/super-productivity/pull/10126) | Schedule day panel preserves the user's scroll position after initialization | Merged September 25, 2026 |
+
+The count excludes pull requests in my own repositories. [Rosetta #359](https://github.com/griddynamics/rosetta/pull/359) remains open at this check and is excluded from the accepted total. The current count can be reproduced with GitHub's [merged external contribution search](https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aatomicdjt+-user%3Aatomicdjt&type=pullrequests).
 
 ## Case 1: Rosetta #320 - performance improvement under adversarial review
 
@@ -49,6 +54,12 @@ The final review re-ran the MCP/CLI suites and type checks, confirmed the stale 
 This is stronger evidence to me than an unchallenged merge: the final contribution became materially different because outside review falsified part of the initial premise.
 
 Evidence: [PR #319 and review history](https://github.com/griddynamics/rosetta/pull/319).
+
+## Later reliability fixes
+
+Rosetta #338 added a configurable deadline to command evaluation. The accepted implementation terminates the process tree when a shell command hangs and returns a normal failed evaluation. Its review history documents how hosted Ubuntu exposed descendant processes surviving the initial timeout approach. Rosetta #339 narrowed the `Rosetta-AI-reviewed` override to `new_string`, closing the case where a marker in old text or an unrelated property could authorize a MultiEdit write.
+
+Super-productivity #10126 removed the periodic effect that re-scrolled the schedule day panel as the current-time row advanced. It retained the initial scroll and current-time display. This is a small, accepted usability repair; its merge does not imply the independent differential-verification evidence recorded for Rosetta #320.
 
 ## What I take from the record
 
