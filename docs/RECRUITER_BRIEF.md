@@ -11,6 +11,8 @@
 
 David turns ambiguous operational and knowledge-work problems into structured, reviewable software. His portfolio combines applied AI workflow design, deterministic analysis, technical operations, local-first product architecture, testing, documentation, deployment evidence, and buyer or operator handoff. The work is strongly AI-assisted, while product direction, requirements, scope, verification expectations, and public claims are explicitly owned and reviewed by David.
 
+As checked October 15, 2026, his public record includes [eight merged upstream contributions](../writing/external-validation-upstream-review.md) and [named technical input and a synthetic fixture in AgentMeasure](../writing/agentmeasure-inference-boundary.md). The [current work index](CURRENT_WORK.md) covers maintained systems and ongoing local development.
+
 ## Best-fit role families
 
 - Applied AI Workflow Specialist
@@ -24,11 +26,11 @@ David turns ambiguous operational and knowledge-work problems into structured, r
 
 ## Five-minute evidence review
 
-1. **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** - strongest technical originality.
-2. **[ProcessHarbor](https://ai-project-portfolio-opspilot-ai-op.vercel.app/)** - strongest direct role alignment.
-3. **[WeaveStudio](https://weavestudio-nine.vercel.app/)** - strongest productization and transferability.
-4. **[QuoteForge Local](https://quoteforge-local.vercel.app/)** - strongest commercial packaging.
-5. **[Portfolio evidence](PORTFOLIO_EVIDENCE.md)** - claim boundaries and capability map.
+1. **[Rosetta #320](https://github.com/griddynamics/rosetta/pull/320)** — an accepted fix with substantive independent equivalence and scaling review.
+2. **[AgentMeasure attribution and fixture](../writing/agentmeasure-inference-boundary.md)** — externally incorporated technical input with public provenance.
+3. **[Trajectory Fidelity Bridge](https://github.com/atomicdjt/trajectory-fidelity-bridge)** — published Python tooling and explicit interoperability limits.
+4. **[ProcessHarbor](https://ai-project-portfolio-opspilot-ai-op.vercel.app/)** or **[WeaveStudio](https://weavestudio-nine.vercel.app/)** — operations documentation or workflow-product evidence, according to the role.
+5. **[Current work index](CURRENT_WORK.md)** — the broader software, writing, and development record.
 
 ## What differentiates the portfolio
 
