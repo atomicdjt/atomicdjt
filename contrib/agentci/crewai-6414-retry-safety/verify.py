@@ -104,7 +104,7 @@ class Adapter:
         # A fresh permit is required even when a logical operation ID is reused.
         if not permit:
             return "denied_authority"
-        attempt_id = f"attempt-{len(self.attempts) + 1}"
+        attempt_id = f"attempt:{permit}"
         claim = self.ledger.claim(operation_id, fingerprint(payload), permit)
         self.attempts.append({"operation_id": operation_id, "attempt_id": attempt_id,
                               "authorization_permit_id": permit, "claim": claim})
@@ -214,6 +214,7 @@ class RetryContractTests(unittest.TestCase):
         self.ledger = Ledger(self.path)
         a_after_restart = Adapter(self.ledger, remote)
         self.assertEqual(a_after_restart.run("op-1", self.args, permit="permit-2"), "reconciled:receipt-1")
+        self.assertNotEqual(a.attempts[0]["attempt_id"], a_after_restart.attempts[0]["attempt_id"])
         self.assertEqual((remote.calls, remote.effects), (1, 1))
 
 
