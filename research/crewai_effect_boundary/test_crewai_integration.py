@@ -56,7 +56,7 @@ class CrewAIToolDispatchTests(unittest.TestCase):
         action = self.AgentAction(
             thought="Execute the explicit authorized test operation",
             tool="guarded_effect", tool_input=args,
-            text=f"Action: guarded_effect\\nAction Input: {args}",
+            text=f"Action: guarded_effect\nAction Input: {args}",
         )
         outcome = self.dispatch(agent_action=action, tools=[self.tool])
         return str(outcome.result)
