@@ -1,6 +1,7 @@
 """Fault-injection tests. Local HTTP service and client persist separate SQLite DBs."""
 from __future__ import annotations
 
+import io
 import json
 import sqlite3
 import tempfile
@@ -10,6 +11,8 @@ from concurrent.futures import ThreadPoolExecutor
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from contextlib import contextmanager
+from unittest.mock import patch
+from urllib.error import HTTPError
 
 from adapter import GuardedEffect
 
@@ -114,6 +117,31 @@ class BoundaryTests(unittest.TestCase):
         self.provider.close()
         self.tmp.cleanup()
 
+    def test_http_error_response_closed_after_ambiguous_dispatch(self):
+        body = io.BytesIO(b"injected HTTP 500")
+        error = HTTPError(self.provider.url + "/effects", 500, "injected", {}, body)
+        try:
+            with patch("adapter.urlopen", side_effect=error):
+                result = self.adapter.run("op-http-error", {"value": "42"})
+            self.assertEqual(result, "UNKNOWN:outcome_ambiguous")
+            self.assertTrue(body.closed)
+        finally:
+            error.close()
+
+    def test_http_error_response_closed_after_status_lookup(self):
+        from adapter import digest
+
+        self.adapter._claim("op-status-error", digest({"value": "42"}))
+        body = io.BytesIO(b"injected HTTP 404")
+        error = HTTPError(self.provider.url + "/operations/op-status-error", 404, "injected", {}, body)
+        try:
+            with patch("adapter.urlopen", side_effect=error):
+                result = self.adapter.run("op-status-error", {"value": "42"})
+            self.assertEqual(result, "UNKNOWN:unverified_status")
+            self.assertTrue(body.closed)
+        finally:
+            error.close()
+
     def test_successful_effect_and_cached_replay(self):
         self.assertEqual(self.adapter.run("op-1", {"value":"42"}), "COMMITTED:receipt-1")
         self.assertEqual(self.adapter.run("op-1", {"value":"42"}), "COMMITTED:receipt-1")
@@ -150,7 +178,26 @@ class BoundaryTests(unittest.TestCase):
         # A persisted claim can exist even when the server has no record.
         self.adapter._claim("never-dispatched", digest({"value":"42"}))
         self.assertEqual(self.adapter.run("never-dispatched", {"value":"42"}), "UNKNOWN:unverified_status")
+        self.assertEqual(self.adapter.state("never-dispatched"), ("UNKNOWN", None))
         self.assertEqual(self.provider.post_count, 0)
+
+    def test_malformed_status_evidence_remains_unknown(self):
+        from adapter import digest
+
+        self.adapter._claim("op-malformed-status", digest({"value": "42"}))
+        with patch("adapter.urlopen", return_value=io.BytesIO(b"[]")):
+            result = self.adapter.run("op-malformed-status", {"value": "42"})
+        self.assertEqual(result, "UNKNOWN:unverified_status")
+        self.assertEqual(self.adapter.state("op-malformed-status"), ("UNKNOWN", None))
+
+    def test_malformed_commit_receipt_remains_unknown(self):
+        response = io.BytesIO(
+            json.dumps({"operation_id": "op-malformed-receipt", "state": "COMMITTED", "receipt": {"id": "fake"}}).encode()
+        )
+        with patch("adapter.urlopen", return_value=response):
+            result = self.adapter.run("op-malformed-receipt", {"value": "42"})
+        self.assertEqual(result, "UNKNOWN:invalid_receipt")
+        self.assertEqual(self.adapter.state("op-malformed-receipt"), ("UNKNOWN", None))
 
     def test_payload_drift_is_not_retried(self):
         self.adapter.run("op-1", {"value":"42"})

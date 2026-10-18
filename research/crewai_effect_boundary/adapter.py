@@ -18,6 +18,20 @@ def digest(payload: dict[str, str]) -> str:
     return hashlib.sha256(json.dumps(payload, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
 
 
+def committed_receipt(evidence: object, operation_id: str) -> str | None:
+    if not isinstance(evidence, dict):
+        return None
+    receipt = evidence.get("receipt")
+    if (
+        evidence.get("operation_id") != operation_id
+        or evidence.get("state") != "COMMITTED"
+        or not isinstance(receipt, str)
+        or not receipt.strip()
+    ):
+        return None
+    return receipt
+
+
 class GuardedEffect:
     def __init__(self, ledger_path: str | Path, base_url: str, *, status_supported: bool):
         self.ledger_path = str(ledger_path)
@@ -90,22 +104,30 @@ class GuardedEffect:
                 req = Request(f"{self.base_url}/operations/{operation_id}", method="GET")
                 with urlopen(req, timeout=3) as response:
                     evidence = json.load(response)
-                if evidence.get("operation_id") == operation_id and evidence.get("state") == "COMMITTED" and evidence.get("receipt"):
-                    self._record(operation_id, "COMMITTED", evidence["receipt"])
-                    return f"COMMITTED:{evidence['receipt']}"
+                receipt = committed_receipt(evidence, operation_id)
+                if receipt is not None:
+                    self._record(operation_id, "COMMITTED", receipt)
+                    return f"COMMITTED:{receipt}"
+                self._record(operation_id, "UNKNOWN")
                 return "UNKNOWN:unverified_status"
-            except (HTTPError, URLError, TimeoutError, OSError, ValueError):
+            except (HTTPError, URLError, TimeoutError, OSError, ValueError) as exc:
+                if isinstance(exc, HTTPError):
+                    exc.close()
+                self._record(operation_id, "UNKNOWN")
                 return "UNKNOWN:unverified_status"
         req = Request(f"{self.base_url}/effects", data=json.dumps({"operation_id": operation_id, "payload": payload}).encode(),
                       headers={"Content-Type": "application/json"}, method="POST")
         try:
             with urlopen(req, timeout=3) as response:
                 evidence = json.load(response)
-            if evidence.get("operation_id") != operation_id or evidence.get("state") != "COMMITTED" or not evidence.get("receipt"):
+            receipt = committed_receipt(evidence, operation_id)
+            if receipt is None:
                 self._record(operation_id, "UNKNOWN")
                 return "UNKNOWN:invalid_receipt"
-            self._record(operation_id, "COMMITTED", evidence["receipt"])
-            return f"COMMITTED:{evidence['receipt']}"
-        except (HTTPError, URLError, TimeoutError, OSError, ValueError):
+            self._record(operation_id, "COMMITTED", receipt)
+            return f"COMMITTED:{receipt}"
+        except (HTTPError, URLError, TimeoutError, OSError, ValueError) as exc:
+            if isinstance(exc, HTTPError):
+                exc.close()
             self._record(operation_id, "UNKNOWN")
             return "UNKNOWN:outcome_ambiguous"

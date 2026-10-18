@@ -24,7 +24,7 @@ jobs:
       - name: Install pinned CrewAI runtime
         run: |
           python -m pip install --upgrade pip
-          python -m pip install "crewai==1.15.28"
-          python -c 'import crewai; print("CrewAI runtime imported:", crewai.__file__)'
+          python -m pip install "crewai @ git+https://github.com/crewAIInc/crewAI.git@911270929444ffc385e725e15976821ea503ddc2#subdirectory=lib/crewai"
+          python -c 'import crewai; from importlib.metadata import version; assert version("crewai") == "1.15.28"; print("CrewAI runtime imported:", crewai.__file__, "version:", version("crewai"), "source commit: 911270929444ffc385e725e15976821ea503ddc2")'
       - name: Run localhost HTTP and actual CrewAI dispatch tests
         run: python -m unittest discover -s research/crewai_effect_boundary -p 'test_*.py' -v
