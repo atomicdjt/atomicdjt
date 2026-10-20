@@ -141,6 +141,8 @@ My strongest credibility signal is not repository count or self-reported experti
 
 <sub>Transparency: <a href="https://github.com/openclaw/openclaw/pull/125740">OpenClaw #125740</a> was closed without merge or recorded human approval. I do not present it as accepted upstream work.</sub>
 
+<sub>Credit reconciliation (20 October 2026): <a href="https://github.com/atomicdjt/AI-Project-Portfolio/issues/144">SCITT publication/sign-off</a> and the Vaara run are not my credited work; a separate conformance-test idea belongs to Rul1an. <a href="docs/CURRENT_WORK.md#attribution-corrections-and-pending-third-party-work">The evidence index</a> identifies pending AgentCI and directory proposals without counting them as accepted or adopted.</sub>
+
 > **Repository taxonomy:** the repositories presented as original systems use the shared portfolio identity. Public forks used for upstream contribution work intentionally retain their upstream branding and history rather than being styled as original projects.
 
 ## Engineering method

@@ -9,6 +9,15 @@ Contribution and pull-request statuses checked October 20, 2026; remaining proje
 3. **[Trajectory Fidelity Bridge](https://github.com/atomicdjt/trajectory-fidelity-bridge):** an owned, published Python tool with explicit transformation and loss boundaries.
 4. **[Portfolio Hub](https://ai-project-portfolio-portfolio-hub.vercel.app/):** working applications, source links, and review paths.
 
+## Attribution corrections and pending third-party work
+
+**Verified 20 October 2026:** The [canonical attribution/disposition register](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/discovery/external-corroboration.md#attribution-and-disposition-reconciliation--verified-20-october-2026) separates credited work from proposals, independent reports, and other people's results.
+
+- **Not my publication, sign-off, or test run:** the [SCITT/Zenodo report](https://github.com/atomicdjt/AI-Project-Portfolio/issues/144) does not establish my authorship or independent final verification. The October report sign-off and reported digests were supplied by `babyblueviper1`, who also owns the [Vaara #590](https://github.com/vaaraio/vaara/issues/590) conformance result. The separate [delete-the-rule conformance test](https://github.com/babyblueviper1/invinoveritas/commit/be141e8d501d61486fb7a363bee507312ef61162) credits `Rul1an`, not me.
+- **Not merged or adopted:** [OpenClaw #125740](https://github.com/openclaw/openclaw/pull/125740) closed without merge; [AgentCI #121](https://github.com/jinngimk-lang/agentci/issues/121) remains `UNVERIFIED / reproducible-candidate`. Neither is counted as a merged external contribution.
+- **Directory submissions still open:** [LocalFirstWeb #102](https://github.com/mylofi/localfirstweb.dev/pull/102), [Awesome BYOK #12](https://github.com/yatsyk/awesome-byok-apps/pull/12), and [Awesome Browser-Based Tools #7](https://github.com/ZihangDong/awesome-browser-based-tools/pull/7) are unmerged PRs, not published listings or evidence of usage.
+- **Retained legitimate credits:** nine `atomicdjt`-authored merged upstream PRs and the expressly attributed [AgentMeasure reviewer/fixture contribution](../writing/agentmeasure-inference-boundary.md); no authorship of its entire specification or claim of broader adoption.
+
 ## Maintained systems
 
 | Work | Source / public surface | Scope and current delivery state |
