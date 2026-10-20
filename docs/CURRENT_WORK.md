@@ -1,10 +1,10 @@
 # Current work and evidence index
 
-Checked October 15, 2026. This index connects David Turner's public software, accepted external contributions, technical writing, and current local development. Repository source and contribution records are authoritative for the linked claims. A public source repository, a released package, and a deployed demonstration describe different stages of delivery.
+Contribution and pull-request statuses checked October 20, 2026; remaining project descriptions last reviewed October 15. This index connects David Turner's public software, accepted external contributions, technical writing, and current local development. Repository source and contribution records are authoritative for the linked claims. A public source repository, a released package, and a deployed demonstration describe different stages of delivery.
 
 ## Start with external evidence
 
-1. **[Eight merged upstream contributions](../writing/external-validation-upstream-review.md):** six Rosetta changes and two super-productivity fixes. Rosetta #320 includes substantive independent equivalence, scaling, and mutation review.
+1. **[Nine merged upstream contributions](../writing/external-validation-upstream-review.md):** seven Rosetta changes and two super-productivity fixes. Rosetta #320 includes substantive independent equivalence, scaling, and mutation review.
 2. **[AgentMeasure contribution](../writing/agentmeasure-inference-boundary.md):** public attribution in DR-005 and an included synthetic conformance fixture.
 3. **[Trajectory Fidelity Bridge](https://github.com/atomicdjt/trajectory-fidelity-bridge):** an owned, published Python tool with explicit transformation and loss boundaries.
 4. **[Portfolio Hub](https://ai-project-portfolio-portfolio-hub.vercel.app/):** working applications, source links, and review paths.
@@ -29,7 +29,9 @@ Supporting work includes GardenGrid, Mnemosyne, Amino Acid Research Workbench, H
 
 ## Work in review
 
-At this check, [Rosetta #359](https://github.com/griddynamics/rosetta/pull/359) is open for the binary-change publication fix. [WeaveStudio #65](https://github.com/atomicdjt/weavestudio/pull/65) contains additional workspace and deliverable-safety work, and [Validation Ledger #38](https://github.com/atomicdjt/validation-ledger/pull/38) preserves both guided-demo fixture lineages. These links describe proposed work; the main branches and canonical deployments have their own delivery state.
+**Merged on October 19:** [Rosetta #359](https://github.com/griddynamics/rosetta/pull/359) was accepted upstream for the equal-size binary-change publication fix and is included in the nine-merge total.
+
+**Still open as of October 20 (not merged into the target branches):** [WeaveStudio #64](https://github.com/atomicdjt/weavestudio/pull/64) (approval-content attestations), [WeaveStudio #65](https://github.com/atomicdjt/weavestudio/pull/65) (workspace/deliverable safety; preview build blocked before execution), [Validation Ledger #38](https://github.com/atomicdjt/validation-ledger/pull/38) (mixed-evidence demo seed), [Trajectory Fidelity Bridge #43](https://github.com/atomicdjt/trajectory-fidelity-bridge/pull/43) (draft, null/error boundary tests), and [QuoteForge Local #38](https://github.com/atomicdjt/quoteforge-local/pull/38) (checkout and buyer-audit documentation). These proposed branch changes do not establish a new canonical release or production deployment.
 
 ## Current local development
 

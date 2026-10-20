@@ -2,7 +2,7 @@
 
 Self-directed projects show what I can build. Upstream review shows what happens when somebody else controls acceptance.
 
-Checked October 15, 2026. This note records eight merged contributions across Grid Dynamics' Rosetta project and super-productivity: six Rosetta pull requests and two super-productivity fixes. Each link below identifies an accepted, scoped contribution.
+Checked October 20, 2026. This note records nine merged contributions across Grid Dynamics' Rosetta project and super-productivity: seven Rosetta pull requests and two super-productivity fixes. Each link below identifies an accepted, scoped contribution.
 
 The claim is deliberately narrow. A merged pull request is evidence that a specific contribution survived an external project's review process. It is not a blanket endorsement of my portfolio, seniority, or every technical judgment I make.
 
@@ -17,9 +17,10 @@ The claim is deliberately narrow. A merged pull request is evidence that a speci
 | [super-productivity #9619](https://github.com/super-productivity/super-productivity/pull/9619) | Section-visible task ordering | Regression fix merged upstream |
 | [Rosetta #338](https://github.com/griddynamics/rosetta/pull/338) | Configurable command-evaluator timeout and descendant-process termination | Merged September 29, 2026 |
 | [Rosetta #339](https://github.com/griddynamics/rosetta/pull/339) | MultiEdit review-marker source restricted to newly written content | Merged September 29, 2026 |
+| [Rosetta #359](https://github.com/griddynamics/rosetta/pull/359) | Equal-size binary-change detection during publish | Merged October 19, 2026 |
 | [super-productivity #10126](https://github.com/super-productivity/super-productivity/pull/10126) | Schedule day panel preserves the user's scroll position after initialization | Merged September 25, 2026 |
 
-The count excludes pull requests in my own repositories. [Rosetta #359](https://github.com/griddynamics/rosetta/pull/359) remains open at this check and is excluded from the accepted total. The current count can be reproduced with GitHub's [merged external contribution search](https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aatomicdjt+-user%3Aatomicdjt&type=pullrequests).
+The count excludes pull requests in my own repositories. [Rosetta #359](https://github.com/griddynamics/rosetta/pull/359) was merged October 19, 2026, and is included in the accepted total. The current count can be reproduced with GitHub's [merged external contribution search](https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aatomicdjt+-user%3Aatomicdjt&type=pullrequests).
 
 ## Case 1: Rosetta #320 - performance improvement under adversarial review
 

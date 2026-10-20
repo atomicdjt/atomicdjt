@@ -15,7 +15,7 @@
 
 <sub>Software, open-source contributions, and technical writing centered on verification, provenance, explicit limits, and reviewable evidence.</sub>
 
-[**Current work & evidence index**](docs/CURRENT_WORK.md) · [**Eight merged upstream contributions**](writing/external-validation-upstream-review.md) · [**Attributed AgentMeasure collaboration**](writing/agentmeasure-inference-boundary.md)
+[**Current work & evidence index**](docs/CURRENT_WORK.md) · [**Nine merged upstream contributions**](writing/external-validation-upstream-review.md) · [**Attributed AgentMeasure collaboration**](writing/agentmeasure-inference-boundary.md)
 
 </div>
 
@@ -115,7 +115,7 @@ A visual simulation lab with graph-based propagation, stability heuristics, repr
 
 My strongest credibility signal is not repository count or self-reported expertise; it is work that survived outside review.
 
-**Eight pull requests merged into two external projects**, checked October 15, 2026. The scope of each accepted contribution is linked below.
+**Nine pull requests merged into two external projects**, checked October 20, 2026 (seven Rosetta; two super-productivity). The scope of each accepted contribution is linked below.
 
 | PR | Project | What changed | Result |
 | --- | --- | --- | --- |
@@ -125,6 +125,7 @@ My strongest credibility signal is not repository count or self-reported experti
 | [#299](https://github.com/griddynamics/rosetta/pull/299) | Grid Dynamics Rosetta | Extended a dangerous-action guard to equivalent force-delete forms | **Merged** |
 | [#338](https://github.com/griddynamics/rosetta/pull/338) | Grid Dynamics Rosetta | Bounded command evaluations and terminated descendant processes on timeout | **Merged** September 29, 2026 |
 | [#339](https://github.com/griddynamics/rosetta/pull/339) | Grid Dynamics Rosetta | Restricted the MultiEdit review override to content actually being written | **Merged** September 29, 2026 |
+| [#359](https://github.com/griddynamics/rosetta/pull/359) | Grid Dynamics Rosetta | Fixed detection of equal-size binary changes during publish | **Merged** October 19, 2026 |
 | [#9619](https://github.com/super-productivity/super-productivity/pull/9619) | super-productivity | Kept visible task order synchronized with persistent movement actions | **Merged** |
 | [#10126](https://github.com/super-productivity/super-productivity/pull/10126) | super-productivity | Stopped the schedule day panel from repeatedly snapping back to the current time | **Merged** September 25, 2026 |
 

@@ -57,7 +57,7 @@
     <g transform="translate(60,311)">
       <rect width="140" height="39" rx="10" fill="#081d2d" stroke="#22d3ee" stroke-opacity=".35"/>
       <text x="15" y="16" fill="#67e8f9">MERGED UPSTREAM</text>
-      <text x="15" y="31" fill="#f8fafc" font-size="13">5 CONTRIBUTIONS</text>
+      <text x="15" y="31" fill="#f8fafc" font-size="13">9 CONTRIBUTIONS</text>
     </g>
     <g transform="translate(212,311)">
       <rect width="160" height="39" rx="10" fill="#0b1930" stroke="#3b82f6" stroke-opacity=".35"/>
