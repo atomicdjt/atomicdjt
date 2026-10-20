@@ -24,13 +24,13 @@ AI-assisted engineering · agent interoperability · local-first products · rep
 
 | Project | Why it exists | Inspect it |
 | --- | --- | --- |
-| **[Trajectory Fidelity Bridge](https://github.com/atomicdjt/trajectory-fidelity-bridge)** | Convert supported Claude Code history to ATIF v1.7 with explicit fidelity/loss reporting, not an invented promise of native session resumption | [PyPI 0.4.1](https://pypi.org/project/atomicdjt-trajectory-fidelity-bridge/) · [Reproduce](https://github.com/atomicdjt/trajectory-fidelity-bridge/blob/main/docs/REVIEWER_QUICKSTART.md) |
-| **[Validation Ledger](https://github.com/atomicdjt/validation-ledger)** | Trace evidence and counterevidence into reviewable decisions without passing off a heuristic score as truth | [Live demo](https://validation-ledger.vercel.app/) · [Review guide](https://github.com/atomicdjt/validation-ledger/blob/main/docs/REVIEWER_QUICKSTART.md) |
-| **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** | Build, review, and export local-first workflows with source lineage and human checkpoints | [Live demo](https://weavestudio-nine.vercel.app/) · [Review guide](https://github.com/atomicdjt/weavestudio/blob/main/docs/REVIEWER_QUICKSTART.md) |
+| **[Trajectory Fidelity Bridge](https://github.com/atomicdjt/trajectory-fidelity-bridge)** | Convert supported Claude Code history to ATIF v1.7 with explicit fidelity/loss reporting, not an invented promise of native session resumption | [PyPI 0.4.1](https://pypi.org/project/atomicdjt-trajectory-fidelity-bridge/) · [Verification report](https://github.com/atomicdjt/trajectory-fidelity-bridge/blob/main/docs/VERIFICATION_REPORT.md) |
+| **[Validation Ledger](https://github.com/atomicdjt/validation-ledger)** | Trace evidence and counterevidence into reviewable decisions without passing off a heuristic score as truth | [Live demo](https://validation-ledger.vercel.app/) · [Release validation](https://github.com/atomicdjt/validation-ledger/blob/main/docs/VALIDATION.md) |
+| **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** | Build, review, and export local-first workflows with source lineage and human checkpoints | [Live demo](https://weavestudio-nine.vercel.app/) · [Release verification](https://github.com/atomicdjt/weavestudio/blob/main/docs/RELEASE_VERIFICATION.md) |
 | **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** | Reproducible graph scenarios for cascades, sensitivity, and systems intuition under explicitly heuristic models | [Live simulation](https://buildworld-ai-v01-improvements.vercel.app/) · [Methodology](https://github.com/atomicdjt/buildworld-ai/blob/main/METHODOLOGY.md) |
 | **[Cosmic Atlas Scientific](https://github.com/atomicdjt/cosmic-atlas-scientific)** | An offline astronomy atlas connecting source-derived catalog data, explicit provenance, and bounded numerical tools | [v5.1.0 release](https://github.com/atomicdjt/cosmic-atlas-scientific/releases/latest) · [v6 development reviewer guide](https://github.com/atomicdjt/cosmic-atlas-scientific/blob/main/docs/REVIEWER_QUICKSTART.md) |
 
-<img src="./assets/systems-landscape.svg" alt="Five engineering systems and their shared evidence, portability, and verification concerns" width="100%" />
+<img src="./assets/systems-landscape.svg" alt="Four illustrated systems with shared evidence, portability, and verification concerns" width="100%" />
 
 ## How I work
 
