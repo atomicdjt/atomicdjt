@@ -11,7 +11,7 @@
 
 David turns ambiguous operational and knowledge-work problems into structured, reviewable software. His portfolio combines applied AI workflow design, deterministic analysis, technical operations, local-first product architecture, testing, documentation, deployment evidence, and buyer or operator handoff. The work is strongly AI-assisted, while product direction, requirements, scope, verification expectations, and public claims are explicitly owned and reviewed by David.
 
-As checked October 15, 2026, his public record includes [eight merged upstream contributions](../writing/external-validation-upstream-review.md) and [named technical input and a synthetic fixture in AgentMeasure](../writing/agentmeasure-inference-boundary.md). The [current work index](CURRENT_WORK.md) covers maintained systems and ongoing local development.
+As checked October 20, 2026, his public record includes [nine merged upstream contributions (seven Rosetta and two super-productivity)](../writing/external-validation-upstream-review.md) and [named technical input and a synthetic fixture in AgentMeasure](../writing/agentmeasure-inference-boundary.md). The [current work index](CURRENT_WORK.md) covers maintained systems and ongoing local development.
 
 ## Best-fit role families
 
