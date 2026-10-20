@@ -1,0 +1,38 @@
+name: Profile navigation integrity
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "docs/**"
+      - "writing/**"
+      - "assets/**"
+      - "scripts/check_profile_links.py"
+      - "tests/test_profile_links.py"
+      - ".github/workflows/profile-navigation.yml"
+  push:
+    branches: ["main"]
+    paths:
+      - "README.md"
+      - "docs/**"
+      - "writing/**"
+      - "assets/**"
+      - "scripts/check_profile_links.py"
+      - "tests/test_profile_links.py"
+      - ".github/workflows/profile-navigation.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  local-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run checker unit tests
+        run: python -m unittest discover -s tests -p "test_profile_links.py" -v
+      - name: Validate tracked profile document links
+        run: python scripts/check_profile_links.py
