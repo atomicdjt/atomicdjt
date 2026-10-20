@@ -1,234 +1,57 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" alt="David Turner — systems, verification, and AI-assisted engineering" width="100%" />
+<img src="./assets/profile-hero.svg" alt="David Turner — evidence-led software and AI systems engineering" width="100%" />
 
-<br />
+**I build inspectable software, then test whether its claims survive contact with reality.**
 
-<a href="https://ai-project-portfolio-portfolio-hub.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-LIVE-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/david-turner-6052491a2"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-2563eb?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/atomicdjt?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-EXPLORE-111827?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
-<a href="mailto:davidelsey9513@gmail.com"><img src="https://img.shields.io/badge/EMAIL-CONTACT-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+AI-assisted engineering · agent interoperability · local-first products · reproducible verification
 
-<br /><br />
-
-**I build systems whose claims can be inspected.**
-
-<sub>Software, open-source contributions, and technical writing centered on verification, provenance, explicit limits, and reviewable evidence.</sub>
-
-[**Current work & evidence index**](docs/CURRENT_WORK.md) · [**Nine merged upstream contributions**](writing/external-validation-upstream-review.md) · [**Attributed AgentMeasure collaboration**](writing/agentmeasure-inference-boundary.md)
+[**View live projects**](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [**Inspect external engineering proof**](writing/external-validation-upstream-review.md) · [**See what is maintained**](docs/CURRENT_WORK.md) · [**Contact**](mailto:davidelsey9513@gmail.com)
 
 </div>
 
-<br />
+## Start here: three checks of the work
 
-<img src="./assets/evidence-dashboard.svg" alt="Engineering evidence dashboard" width="100%" />
+| What to evaluate | Direct evidence | What it actually establishes |
+| --- | --- | --- |
+| **Can a change withstand adversarial review?** | [Rosetta #320](https://github.com/griddynamics/rosetta/pull/320) · [Engineering case study](writing/engineering-proof-cases.md#case-1-rosetta-320--a-performance-fix-that-required-a-security-equivalence-argument) | A dangerous-command matcher fix merged after independent differential, scaling, and mutation review; not a general security certification |
+| **Can an observation be separated from an inference?** | [AgentMeasure DR-005](https://github.com/roy-tong/AgentMeasure/blob/main/design-rationale/DR-005-evidence-calibrated-consumption-claims.md) · [Attributed fixture](https://github.com/roy-tong/AgentMeasure/blob/main/conformance/evidence/inference-boundary-aggregation-replay/README.md) | An external project explicitly credited my limited reviewer input and synthetic fixture; not authorship of the full specification |
+| **Can an ambiguous tool result be handled conservatively?** | [CrewAI recovery fixture](https://github.com/atomicdjt/crewai-stripe-recovery-fixture) · [Boundary case study](writing/engineering-proof-cases.md#case-2-recovery-after-an-ambiguous-tool-side-effect) | Local, fault-injected SQLite/provider-double behavior; not a live Stripe, distributed exactly-once, or upstream CrewAI guarantee |
 
-## Systems I build
+**Verified upstream record:** **9 authored pull requests merged into two external projects** — [7 Rosetta](writing/external-validation-upstream-review.md) and [2 super-productivity](writing/external-validation-upstream-review.md), checked October 20, 2026. See the individual PRs, reviewer findings, limitations, and AI-assistance disclosure in the [full external-validation record](writing/external-validation-upstream-review.md).
 
-<img src="./assets/systems-landscape.svg" alt="Systems landscape connecting four featured projects to a shared engineering core" width="100%" />
+## Selected systems
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| Project | Why it exists | Inspect it |
+| --- | --- | --- |
+| **[Trajectory Fidelity Bridge](https://github.com/atomicdjt/trajectory-fidelity-bridge)** | Convert supported Claude Code history to ATIF v1.7 with explicit fidelity/loss reporting, not an invented promise of native session resumption | [PyPI 0.4.1](https://pypi.org/project/atomicdjt-trajectory-fidelity-bridge/) · [Reproduce](https://github.com/atomicdjt/trajectory-fidelity-bridge/blob/main/docs/REVIEWER_QUICKSTART.md) |
+| **[Validation Ledger](https://github.com/atomicdjt/validation-ledger)** | Trace evidence and counterevidence into reviewable decisions without passing off a heuristic score as truth | [Live demo](https://validation-ledger.vercel.app/) · [Review guide](https://github.com/atomicdjt/validation-ledger/blob/main/docs/REVIEWER_QUICKSTART.md) |
+| **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** | Build, review, and export local-first workflows with source lineage and human checkpoints | [Live demo](https://weavestudio-nine.vercel.app/) · [Review guide](https://github.com/atomicdjt/weavestudio/blob/main/docs/REVIEWER_QUICKSTART.md) |
+| **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** | Reproducible graph scenarios for cascades, sensitivity, and systems intuition under explicitly heuristic models | [Live simulation](https://buildworld-ai-v01-improvements.vercel.app/) · [Methodology](https://github.com/atomicdjt/buildworld-ai/blob/main/METHODOLOGY.md) |
+| **[Cosmic Atlas Scientific](https://github.com/atomicdjt/cosmic-atlas-scientific)** | An offline astronomy atlas connecting source-derived catalog data, explicit provenance, and bounded numerical tools | [v5.1.0 release](https://github.com/atomicdjt/cosmic-atlas-scientific/releases/latest) · [v6 development reviewer guide](https://github.com/atomicdjt/cosmic-atlas-scientific/blob/main/docs/REVIEWER_QUICKSTART.md) |
 
-<h3>↔️ Trajectory Fidelity Bridge</h3>
+<img src="./assets/systems-landscape.svg" alt="Five engineering systems and their shared evidence, portability, and verification concerns" width="100%" />
 
-**Portable coding-agent trajectories without pretending portability is native resumption.**
+## How I work
 
-ATIF v1.7 reference implementation with namespaced fidelity/loss accounting, Claude Code normalization, OpenInference projection, and explicit boundaries around what cannot survive an agent handoff.
+**Specify an invariant → build the smallest implementation → introduce a falsifying test → inspect independent feedback → publish only the claim the evidence supports.**
 
-<sub><b>Python 3.11+ · Pydantic · pytest · mypy · Ruff · OpenTelemetry</b></sub>
+My current work includes TypeScript/React applications, Python CLIs, agent-tool boundaries, provenance-aware workflows, and browser/local data models. AI tools assist with research, coding, tests, and drafting; I direct requirements and verification, review changes, and take responsibility for published work.
 
-<br /><br />
+An upstream merge establishes that a specific contribution was accepted, **not** employment, organizational endorsement, commercial traction, or approval of unrelated work. Local tests do not establish production behavior or independently verified real-world usage.
 
-<a href="https://github.com/atomicdjt/trajectory-fidelity-bridge"><b>Source →</b></a> &nbsp;·&nbsp; <a href="https://github.com/atomicdjt/trajectory-fidelity-bridge/issues">Issues</a> &nbsp;·&nbsp; <a href="https://pypi.org/project/atomicdjt-trajectory-fidelity-bridge/">PyPI</a>
+## Independent review routes
 
-</td>
-<td width="50%" valign="top">
+- **Engineering and security reviewers:** start with [Rosetta #320 and the recovery case studies](writing/engineering-proof-cases.md), then inspect tests and the upstream discussion.
+- **Technical operations and product teams:** use the [five-minute portfolio review](https://ai-project-portfolio-portfolio-hub.vercel.app/review) and try [Validation Ledger](https://validation-ledger.vercel.app/) or [WeaveStudio](https://weavestudio-nine.vercel.app/).
+- **Agent interoperability reviewers:** inspect [Trajectory Fidelity Bridge](https://github.com/atomicdjt/trajectory-fidelity-bridge) and its [compatibility limits](https://github.com/atomicdjt/trajectory-fidelity-bridge/blob/main/docs/COMPATIBILITY.md).
+- **Contribution and publication attribution:** use the [current-work index](docs/CURRENT_WORK.md) and [source-by-source correction register](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/discovery/external-corroboration.md). This distinguishes authored merges from submitted, unverified, rejected, and incorrectly attributed work.
 
-<h3>🧾 Validation Ledger</h3>
-
-**A traceable decision system built around evidence, counterevidence, and inspectable scoring.**
-
-Local-first evidence → hypothesis → decision workflows with an independent-oracle differential test suite designed to expose scoring divergence instead of hiding it.
-
-<sub><b>TypeScript · React · Dexie · Vitest · Playwright · axe-core</b></sub>
-
-<br /><br />
-
-<a href="https://github.com/atomicdjt/validation-ledger"><b>Source →</b></a> &nbsp;·&nbsp; <a href="https://validation-ledger.vercel.app/">Live demo</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3>🕸️ WeaveStudio</h3>
-
-**Visual workflows where claims retain a path back to their sources and human review gates.**
-
-Local-first workflow composition with claim provenance, portable exports, browser verification, accessibility checks, and acquisition-package validation.
-
-<sub><b>TypeScript · React · XYFlow · Vitest · Playwright · jsPDF</b></sub>
-
-<br /><br />
-
-<a href="https://github.com/atomicdjt/weavestudio"><b>Source →</b></a> &nbsp;·&nbsp; <a href="https://weavestudio-nine.vercel.app/">Live demo</a>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>◉ BuildWorld AI</h3>
-
-**Deterministic graph simulation for cascades, sensitivity, and reproducible scenario analysis.**
-
-A visual simulation lab with graph-based propagation, stability heuristics, reproducibility metadata, and exportable scenario reports.
-
-<sub><b>TypeScript · React · Vitest · Playwright · Vite</b></sub>
-
-<br /><br />
-
-<a href="https://github.com/atomicdjt/buildworld-ai"><b>Source →</b></a> &nbsp;·&nbsp; <a href="https://buildworld-ai-v01-improvements.vercel.app/">Live demo</a>
-
-</td>
-</tr>
-  <tr>
-  <td colspan="2" valign="top">
-
-  <h3>🔭 Cosmic Atlas Scientific</h3>
-
-  **An offline astronomy atlas with source-level provenance and explicit scientific limits.**
-
-  The current main branch adds the v6 scientific workspace: offline JPL Horizons/DE441 states, numerical propagation, Lambert transfers, and local HEALPix catalogs. The frozen v5.1.0 package remains the latest formal release.
-
-  <sub><b>JavaScript · WebGL · Python · Gaia DR3 · JPL Horizons · HEALPix</b></sub>
-
-  <br /><br />
-
-  <a href="https://github.com/atomicdjt/cosmic-atlas-scientific"><b>Source →</b></a> &nbsp;·&nbsp; <a href="https://github.com/atomicdjt/cosmic-atlas-scientific/releases/latest">v5.1.0 release</a>
-
-  </td>
-  </tr>
-</table>
-
-## External proof: upstream engineering
-
-My strongest credibility signal is not repository count or self-reported expertise; it is work that survived outside review.
-
-**Nine pull requests merged into two external projects**, checked October 20, 2026 (seven Rosetta; two super-productivity). The scope of each accepted contribution is linked below.
-
-| PR | Project | What changed | Result |
-| --- | --- | --- | --- |
-| [#320](https://github.com/griddynamics/rosetta/pull/320) | Grid Dynamics Rosetta | Removed quadratic backtracking from a dangerous-command matcher | **Merged** after independent equivalence, scaling, and mutation checks |
-| [#319](https://github.com/griddynamics/rosetta/pull/319) | Grid Dynamics Rosetta | Removed unreachable authorization behavior and hardened dataset lookup | **Merged** after substantive review and correction |
-| [#322](https://github.com/griddynamics/rosetta/pull/322) | Grid Dynamics Rosetta | Added regression coverage for dataset-name resolution branches | **Merged** after fixture gaps were identified and corrected |
-| [#299](https://github.com/griddynamics/rosetta/pull/299) | Grid Dynamics Rosetta | Extended a dangerous-action guard to equivalent force-delete forms | **Merged** |
-| [#338](https://github.com/griddynamics/rosetta/pull/338) | Grid Dynamics Rosetta | Bounded command evaluations and terminated descendant processes on timeout | **Merged** September 29, 2026 |
-| [#339](https://github.com/griddynamics/rosetta/pull/339) | Grid Dynamics Rosetta | Restricted the MultiEdit review override to content actually being written | **Merged** September 29, 2026 |
-| [#359](https://github.com/griddynamics/rosetta/pull/359) | Grid Dynamics Rosetta | Fixed detection of equal-size binary changes during publish | **Merged** October 19, 2026 |
-| [#9619](https://github.com/super-productivity/super-productivity/pull/9619) | super-productivity | Kept visible task order synchronized with persistent movement actions | **Merged** |
-| [#10126](https://github.com/super-productivity/super-productivity/pull/10126) | super-productivity | Stopped the schedule day panel from repeatedly snapping back to the current time | **Merged** September 25, 2026 |
-
-> **Rosetta #320 is the clearest proof point.** A reviewer independently checked equivalence across roughly **5.5 million inputs**, then re-verified the corrected head across **1.6+ million differential cases** after review changes. The review also reproduced the **O(n²) → O(n)** scaling and mutation-checked the verification harness.
-
-**[Read the external-validation case study →](writing/external-validation-upstream-review.md)**
-
-### Attributed technical collaboration
-
-**AgentMeasure publicly credits David Turner (@atomicdjt)** in [DR-005](https://github.com/roy-tong/AgentMeasure/blob/main/design-rationale/DR-005-evidence-calibrated-consumption-claims.md) for the provider-inference boundary: client telemetry can establish what was serialized as sent while leaving what reached provider inference unresolved. Its [evidence directory](https://github.com/roy-tong/AgentMeasure/tree/main/conformance/evidence/inference-boundary-aggregation-replay) also contains my attributed synthetic fixture for preserving ambiguity between measured and replayed aggregation.
-
-**[Read the contribution and its limits →](writing/agentmeasure-inference-boundary.md)**
-
-<sub>Transparency: <a href="https://github.com/openclaw/openclaw/pull/125740">OpenClaw #125740</a> was closed without merge or recorded human approval. I do not present it as accepted upstream work.</sub>
-
-<sub>Credit reconciliation (20 October 2026): <a href="https://github.com/atomicdjt/AI-Project-Portfolio/issues/144">SCITT publication/sign-off</a> and the Vaara run are not my credited work; a separate conformance-test idea belongs to Rul1an. <a href="docs/CURRENT_WORK.md#attribution-corrections-and-pending-third-party-work">The evidence index</a> identifies pending AgentCI and directory proposals without counting them as accepted or adopted.</sub>
-
-> **Repository taxonomy:** the repositories presented as original systems use the shared portfolio identity. Public forks used for upstream contribution work intentionally retain their upstream branding and history rather than being styled as original projects.
-
-## Engineering method
-
-<img src="./assets/verification-workflow.svg" alt="Verification-oriented engineering workflow" width="100%" />
-
-The recurring pattern is deliberate: **define what must remain true → make the smallest defensible change → build checks capable of falsifying the claim → invite review → narrow the final claim to what survives.**
-
-## Tooling represented in the work
+**Technical writing:** [Upstream verification](writing/external-validation-upstream-review.md) · [Tool history and ATIF](writing/from-claude-code-jsonl-to-atif-v1-7.md) · [Verification limits](writing/your-ai-agent-finished-the-task.md) · [Reviewer-friendly PRs](writing/pull-request-descriptions-that-survive-review.md)
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=111827" alt="React" />
-<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-<img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" />
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
-<img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" />
-<img src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" />
-
-</div>
-
-## Technical writing
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### External validation
-**[What upstream review actually established →](writing/external-validation-upstream-review.md)**
-
-A compact evidence record for the merged Rosetta and super-productivity contributions.
-
-</td>
-<td width="50%" valign="top">
-
-### Agent interoperability
-**[From Claude Code JSONL to ATIF v1.7 →](writing/from-claude-code-jsonl-to-atif-v1-7.md)**
-
-What survives an agent handoff, what is lost, and why interchange is not native session resumption.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Verification
-**[Your AI agent finished the task. What did it actually prove? →](writing/your-ai-agent-finished-the-task.md)**
-
-Separating artifact, behavioral, provenance, boundary, and independent evidence.
-
-</td>
-<td width="50%" valign="top">
-
-### Technical communication
-**[Pull request descriptions that survive review →](writing/pull-request-descriptions-that-survive-review.md)**
-
-PR structure designed to expose assumptions, verification, and limitations to scrutiny.
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>AI-assisted authorship & claim boundaries</b></summary>
-
-<br />
-
-This is an **AI-assisted portfolio**. I direct product strategy, requirements, scope boundaries, acceptance criteria, verification expectations, and public claims. AI systems assist with implementation, research, debugging, testing, and drafting; I review, revise, reject, validate, and take responsibility for what is published.
-
-Commercial availability does not imply verified revenue, customers, active users, or completed acquisitions. Deterministic scores are heuristics, not certified predictions. Local-first storage is not automatically encrypted, durable, synchronized, or compliant.
-
-</details>
-
-<br />
-
-<div align="center">
-
-### Useful criticism is specific
-
-If you find a broken assumption, weak verification step, misleading claim, confusing interface, or a simpler design, **open an issue**.
-
-[**Portfolio**](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [**Repositories**](https://github.com/atomicdjt?tab=repositories) · [**Writing**](writing/) · [**LinkedIn**](https://www.linkedin.com/in/david-turner-6052491a2) · [**Email**](mailto:davidelsey9513@gmail.com)
-
-<br />
+[**Portfolio**](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [**Project index**](docs/CURRENT_WORK.md) · [**LinkedIn**](https://www.linkedin.com/in/david-turner-6052491a2/) · [**Email**](mailto:davidelsey9513@gmail.com)
 
 <img src="./assets/profile-footer.svg" alt="Evidence first. Claims second." width="100%" />
 
