@@ -16,18 +16,7 @@
   <rect width="1200" height="112" rx="22" fill="url(#footer-bg)"/>
   <rect x="1" y="1" width="1198" height="110" rx="21" fill="none" stroke="#d9e2d7" stroke-opacity=".17"/>
   <rect x="48" y="24" width="88" height="3" rx="1.5" fill="url(#footer-accent)"/>
-  <text x="48" y="60" fill="#f2eee2" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700">Evidence first. Claims fit the proof.</text>
-  <text x="48" y="84" fill="#8ea196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1.1">TRACE → TEST → REVIEW → SCOPE</text>
-  <line x1="790" y1="29" x2="1086" y2="29" stroke="#aab9ab" stroke-opacity=".36"/>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" letter-spacing=".8">
-    <circle cx="802" cy="29" r="4" fill="#83c8b4"/>
-    <circle cx="891" cy="29" r="4" fill="#dfc48d"/>
-    <circle cx="980" cy="29" r="4" fill="#d88c6a"/>
-    <circle cx="1074" cy="29" r="4" fill="#d7ddd1"/>
-    <text x="802" y="49" text-anchor="middle" fill="#91b5a4">TRACE</text>
-    <text x="891" y="49" text-anchor="middle" fill="#cdbb91">TEST</text>
-    <text x="980" y="49" text-anchor="middle" fill="#ce9479">REVIEW</text>
-    <text x="1074" y="49" text-anchor="middle" fill="#c5cdc1">SCOPE</text>
-  </g>
-  <text x="1150" y="82" text-anchor="end" fill="#8ea196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">atomicdjt</text>
+  <text x="48" y="62" fill="#f2eee2" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-weight="700">Evidence first. Claims fit the proof.</text>
+  <text x="48" y="101" fill="#a9c9ba" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" letter-spacing=".6">TRACE → TEST → REVIEW → SCOPE</text>
+  <text x="1150" y="101" text-anchor="end" fill="#d0d8cd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" letter-spacing=".7">atomicdjt</text>
 </svg>
