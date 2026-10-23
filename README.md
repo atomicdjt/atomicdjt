@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero-readable.svg" alt="David Turner. Evidence-led software and systems, with a connected claim verification diagram for provenance, tests, review, and limits." width="100%" />
+<img src="./assets/profile-motion.gif" alt="Looping verification animation: David Turner, evidence-led engineering, and a signal moving through source, test, review, and scope around a central claim." width="100%" />
 
 **I build inspectable software, then test whether its claims survive contact with reality.**
 
