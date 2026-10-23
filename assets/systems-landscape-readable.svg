@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="565" viewBox="0 0 1200 565" role="img" aria-labelledby="title desc">
+  <title id="title">Selected systems, connected by evidence</title>
+  <desc id="desc">Four large, readable portfolio rows: agent interoperability, evidence and decisions, local-first workflows, and scientific and systems models.</desc>
+  <defs>
+    <linearGradient id="map-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f3eb"/>
+      <stop offset="1" stop-color="#ebe8dd"/>
+    </linearGradient>
+    <pattern id="map-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r=".8" fill="#65766a" fill-opacity=".14"/>
+    </pattern>
+    <linearGradient id="map-rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#418a78"/>
+      <stop offset=".52" stop-color="#c59a67"/>
+      <stop offset="1" stop-color="#c26f55"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="565" rx="24" fill="url(#map-bg)"/>
+  <rect width="1200" height="565" rx="24" fill="url(#map-dots)"/>
+  <rect x="1" y="1" width="1198" height="563" rx="23" fill="none" stroke="#6e796e" stroke-opacity=".24"/>
+  <rect x="56" y="34" width="54" height="4" rx="2" fill="url(#map-rule)"/>
+  <text x="56" y="72" fill="#24362e" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="1">SYSTEMS, CONNECTED BY EVIDENCE</text>
+  <text x="56" y="100" fill="#58675d" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">Distinct products. Shared standards for provenance, reproducible review, and explicit limits.</text>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <g transform="translate(56,119)">
+      <rect width="1088" height="88" rx="16" fill="#fbfaf5" stroke="#d6d6ca"/>
+      <rect x="0" y="15" width="5" height="58" rx="2.5" fill="#418a78"/>
+      <g transform="translate(25,18)" fill="none" stroke="#418a78" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 26H35M35 26L51 9M35 26L51 43M8 26L20 9M8 26L20 43"/>
+        <circle cx="8" cy="26" r="5" fill="#fbfaf5"/>
+        <circle cx="20" cy="9" r="4" fill="#fbfaf5"/>
+        <circle cx="20" cy="43" r="4" fill="#fbfaf5"/>
+        <circle cx="51" cy="9" r="4" fill="#fbfaf5"/>
+        <circle cx="51" cy="43" r="4" fill="#fbfaf5"/>
+      </g>
+      <text x="105" y="37" fill="#26372f" font-size="28" font-weight="800">Trajectory Fidelity Bridge</text>
+      <text x="105" y="66" fill="#59685e" font-size="22">ATIF conversion with explicit fidelity and loss reporting.</text>
+    </g>
+
+    <g transform="translate(56,218)">
+      <rect width="1088" height="88" rx="16" fill="#fbfaf5" stroke="#d6d6ca"/>
+      <rect x="0" y="15" width="5" height="58" rx="2.5" fill="#c26f55"/>
+      <g transform="translate(27,16)" fill="none" stroke="#c26f55" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="5" y="3" width="48" height="52" rx="6"/>
+        <path d="M18 17H44M18 29H44M18 41H35"/>
+        <circle cx="11" cy="17" r="1.8" fill="#c26f55"/>
+        <circle cx="11" cy="29" r="1.8" fill="#c26f55"/>
+        <circle cx="11" cy="41" r="1.8" fill="#c26f55"/>
+      </g>
+      <text x="105" y="37" fill="#26372f" font-size="28" font-weight="800">Validation Ledger</text>
+      <text x="105" y="66" fill="#59685e" font-size="22">Evidence and counterevidence become reviewable decisions.</text>
+    </g>
+
+    <g transform="translate(56,317)">
+      <rect width="1088" height="88" rx="16" fill="#fbfaf5" stroke="#d6d6ca"/>
+      <rect x="0" y="15" width="5" height="58" rx="2.5" fill="#728b68"/>
+      <g transform="translate(26,16)" fill="none" stroke="#728b68" stroke-width="2.2" stroke-linecap="round">
+        <path d="M5 10C18 10 20 46 34 46S50 10 56 10M5 28C18 28 20 10 34 10S50 46 56 46M5 46C18 46 20 10 34 10S50 28 56 28"/>
+        <circle cx="5" cy="10" r="3" fill="#728b68"/>
+        <circle cx="56" cy="46" r="3" fill="#728b68"/>
+      </g>
+      <text x="105" y="37" fill="#26372f" font-size="28" font-weight="800">WeaveStudio</text>
+      <text x="105" y="66" fill="#59685e" font-size="22">Local-first workflows with lineage and human checkpoints.</text>
+    </g>
+
+    <g transform="translate(56,416)">
+      <rect width="1088" height="88" rx="16" fill="#fbfaf5" stroke="#d6d6ca"/>
+      <rect x="0" y="15" width="5" height="58" rx="2.5" fill="#bd985f"/>
+      <g transform="translate(26,15)" fill="none" stroke="#bd985f" stroke-width="2" stroke-linecap="round">
+        <circle cx="31" cy="29" r="21" stroke-opacity=".55"/>
+        <ellipse cx="31" cy="29" rx="29" ry="11" transform="rotate(-28 31 29)" stroke-opacity=".8"/>
+        <circle cx="31" cy="29" r="4" fill="#bd985f" stroke="none"/>
+        <circle cx="51" cy="18" r="3" fill="#bd985f" stroke="none"/>
+        <path d="M7 47L13 41M48 48L54 42M13 10L18 15" stroke-width="2.5"/>
+      </g>
+      <text x="105" y="37" fill="#26372f" font-size="28" font-weight="800">Cosmic Atlas Scientific · BuildWorld AI</text>
+      <text x="105" y="66" fill="#59685e" font-size="22">Source-backed astronomy and explicitly heuristic simulations.</text>
+    </g>
+  </g>
+
+  <line x1="56" y1="528" x2="1144" y2="528" stroke="#778479" stroke-opacity=".32"/>
+  <text x="56" y="550" fill="#526458" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" letter-spacing=".6">PROVENANCE · REPRODUCIBLE REVIEW · EXPLICIT LIMITS</text>
+</svg>
