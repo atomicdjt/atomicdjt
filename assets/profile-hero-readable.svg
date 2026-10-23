@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">David Turner — evidence-led software and AI systems engineering</title>
+  <desc id="desc">An editorial banner in deep ink, sea-glass, copper, and paper tones. A connected verification diagram links a claim with provenance, tests, review, and limits.</desc>
+  <defs>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101b1a"/>
+      <stop offset=".58" stop-color="#142321"/>
+      <stop offset="1" stop-color="#1d2924"/>
+    </linearGradient>
+    <radialGradient id="hero-aura" cx="78%" cy="48%" r="46%">
+      <stop offset="0" stop-color="#417c70" stop-opacity=".28"/>
+      <stop offset=".62" stop-color="#253d37" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#101b1a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hero-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#83c8b4"/>
+      <stop offset=".55" stop-color="#d9bc87"/>
+      <stop offset="1" stop-color="#d88c6a"/>
+    </linearGradient>
+    <pattern id="hero-grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#dce9df" stroke-opacity=".035" stroke-width="1"/>
+      <circle cx="1" cy="1" r="1" fill="#e7d7bb" fill-opacity=".12"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#hero-bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#hero-aura)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#hero-grid)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="27" fill="none" stroke="#d9e2d7" stroke-opacity=".16"/>
+
+  <g opacity=".36" fill="none" stroke="#9bb5a6" stroke-width="1">
+    <path d="M650 55C714 15 788 26 822 73C849 110 827 137 790 151"/>
+    <path d="M645 69C700 36 759 43 789 78C811 105 797 127 766 139"/>
+    <path d="M1074 278C1127 259 1158 221 1147 183C1142 164 1127 151 1109 144"/>
+    <path d="M1082 296C1147 275 1180 228 1166 182"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="72" y="60" width="42" height="3" rx="1.5" fill="url(#hero-accent)"/>
+    <text x="72" y="88" fill="#a9c9ba" font-size="20" letter-spacing="1.2">EVIDENCE-LED ENGINEERING</text>
+  </g>
+  <text x="68" y="163" fill="#f2eee2" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700" letter-spacing="-1.6">David Turner</text>
+  <text x="72" y="201" fill="#c5d3c9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">AI systems · interoperability · research</text>
+  <line x1="72" y1="226" x2="568" y2="226" stroke="#b6c7ba" stroke-opacity=".23"/>
+
+  <text x="72" y="283" fill="#b5c9bc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21" letter-spacing=".55">BUILD → VERIFY → BOUND THE CLAIM</text>
+
+  <line x1="630" y1="54" x2="630" y2="306" stroke="#c3d3c8" stroke-opacity=".2"/>
+  <g fill="none" stroke-linecap="round">
+    <circle cx="924" cy="181" r="112" stroke="#a8c8b7" stroke-opacity=".2"/>
+    <circle cx="924" cy="181" r="77" stroke="#d7a37c" stroke-opacity=".42" stroke-dasharray="2 8"/>
+    <path d="M924 103L924 129M1001 181L968 181M924 259L924 233M847 181L880 181" stroke="#d6ded1" stroke-opacity=".58" stroke-width="1.5"/>
+    <path d="M924 69C985 69 1036 120 1036 181C1036 242 985 293 924 293C863 293 812 242 812 181C812 120 863 69 924 69Z" stroke="#8fb8a4" stroke-opacity=".1" stroke-dasharray="1 7"/>
+  </g>
+  <circle cx="924" cy="181" r="47" fill="#182c27" stroke="#a3d1bd" stroke-opacity=".78" stroke-width="1.5"/>
+  <circle cx="924" cy="181" r="37" fill="none" stroke="#dbb58a" stroke-opacity=".5"/>
+  <text x="924" y="189" text-anchor="middle" fill="#f1eee1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800" letter-spacing="1.1">CLAIM</text>
+
+  <g fill="none" stroke-width="1.4" stroke-linecap="round">
+    <path d="M924 84L924 129" stroke="#83c8b4" stroke-opacity=".85"/>
+    <path d="M1065 181L968 181" stroke="#d88c6a" stroke-opacity=".85"/>
+    <path d="M924 278L924 233" stroke="#dfc48d" stroke-opacity=".85"/>
+    <path d="M783 181L880 181" stroke="#93b8a4" stroke-opacity=".85"/>
+  </g>
+  <g>
+    <circle cx="924" cy="84" r="8" fill="#142321" stroke="#83c8b4" stroke-width="2"/>
+    <circle cx="1065" cy="181" r="8" fill="#142321" stroke="#d88c6a" stroke-width="2"/>
+    <circle cx="924" cy="278" r="8" fill="#142321" stroke="#dfc48d" stroke-width="2"/>
+    <circle cx="783" cy="181" r="8" fill="#142321" stroke="#93b8a4" stroke-width="2"/>
+    <circle cx="924" cy="84" r="2.5" fill="#d5eadb"/>
+    <circle cx="1065" cy="181" r="2.5" fill="#f0c6ac"/>
+    <circle cx="924" cy="278" r="2.5" fill="#efe1bf"/>
+    <circle cx="783" cy="181" r="2.5" fill="#d5eadb"/>
+  </g>
+  <g fill="#d0d8cd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" letter-spacing=".6">
+    <text x="924" y="56" text-anchor="middle">SOURCE</text>
+    <text x="1080" y="187">REVIEW</text>
+    <text x="924" y="312" text-anchor="middle">SCOPE</text>
+    <text x="768" y="187" text-anchor="end">TEST</text>
+  </g>
+</svg>
