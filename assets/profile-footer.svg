@@ -1,22 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="116" viewBox="0 0 1200 116" role="img" aria-labelledby="title desc">
-  <title id="title">Evidence first, claims second</title>
-  <desc id="desc">Closing banner for David Turner's GitHub profile.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence first, claims fit the proof</title>
+  <desc id="desc">Closing banner that summarizes David Turner's engineering approach: trace, test, review, and state only what the evidence supports.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#07111f"/>
-      <stop offset=".5" stop-color="#0b1730"/>
-      <stop offset="1" stop-color="#15142d"/>
+    <linearGradient id="footer-bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#101b1a"/>
+      <stop offset=".56" stop-color="#17231f"/>
+      <stop offset="1" stop-color="#202a24"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset=".5" stop-color="#3b82f6"/>
-      <stop offset="1" stop-color="#8b5cf6"/>
+    <linearGradient id="footer-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#83c8b4"/>
+      <stop offset=".52" stop-color="#dfc48d"/>
+      <stop offset="1" stop-color="#d88c6a"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="116" rx="22" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1198" height="114" rx="21" fill="none" stroke="#64748b" stroke-opacity=".20"/>
-  <rect x="52" y="26" width="86" height="3" rx="1.5" fill="url(#line)"/>
-  <text x="52" y="63" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="800">EVIDENCE FIRST. CLAIMS SECOND.</text>
-  <text x="52" y="87" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5">build → verify → review → narrow the claim</text>
-  <text x="1148" y="67" text-anchor="end" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">atomicdjt</text>
+  <rect width="1200" height="112" rx="22" fill="url(#footer-bg)"/>
+  <rect x="1" y="1" width="1198" height="110" rx="21" fill="none" stroke="#d9e2d7" stroke-opacity=".17"/>
+  <rect x="48" y="24" width="88" height="3" rx="1.5" fill="url(#footer-accent)"/>
+  <text x="48" y="60" fill="#f2eee2" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700">Evidence first. Claims fit the proof.</text>
+  <text x="48" y="84" fill="#8ea196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1.1">TRACE → TEST → REVIEW → SCOPE</text>
+  <line x1="790" y1="29" x2="1086" y2="29" stroke="#aab9ab" stroke-opacity=".36"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" letter-spacing=".8">
+    <circle cx="802" cy="29" r="4" fill="#83c8b4"/>
+    <circle cx="891" cy="29" r="4" fill="#dfc48d"/>
+    <circle cx="980" cy="29" r="4" fill="#d88c6a"/>
+    <circle cx="1074" cy="29" r="4" fill="#d7ddd1"/>
+    <text x="802" y="49" text-anchor="middle" fill="#91b5a4">TRACE</text>
+    <text x="891" y="49" text-anchor="middle" fill="#cdbb91">TEST</text>
+    <text x="980" y="49" text-anchor="middle" fill="#ce9479">REVIEW</text>
+    <text x="1074" y="49" text-anchor="middle" fill="#c5cdc1">SCOPE</text>
+  </g>
+  <text x="1150" y="82" text-anchor="end" fill="#8ea196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">atomicdjt</text>
 </svg>

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" alt="David Turner — evidence-led software and AI systems engineering" width="100%" />
+<img src="./assets/profile-hero.svg" alt="David Turner. Evidence-led software and systems, with a connected claim verification diagram for provenance, tests, review, and limits." width="100%" />
 
 **I build inspectable software, then test whether its claims survive contact with reality.**
 
@@ -20,7 +20,7 @@ AI-assisted engineering · agent interoperability · local-first products · rep
 
 **Verified upstream record:** **9 authored pull requests merged in Rosetta and super-productivity** — 7 and 2 respectively, checked October 20, 2026. [Rosetta #359](https://github.com/griddynamics/rosetta/pull/359) is included in the seven. The separately merged OpenWorldRPG contributions are summarized below and are not part of this count. See the individual PRs, reviewer findings, limitations, and AI-assistance disclosure in the [full external-validation record](writing/external-validation-upstream-review.md).
 
-## Recent verified work · October 16–23, 2026
+## Selected recent work
 
 - **Published article:** [When Research Evidence Stops Surviving Product Decisions](https://medium.com/researchops-community/when-research-evidence-stops-surviving-product-decisions-183579089904?postPublishedType=approve-in-publication) was accepted and published by the ResearchOps Community on Medium on October 22, 2026.
 - **External repository merges:** [Rosetta #359](https://github.com/griddynamics/rosetta/pull/359) merged after maintainer review. [OpenWorldRPG #252](https://github.com/TateParker/OpenWorldRPGUnreal/pull/252) and [#253](https://github.com/TateParker/OpenWorldRPGUnreal/pull/253) were merged in a collaborator's repository; #252 reports a UE 5.8.4 build and three focused tests, with its PR documenting remaining limits.
