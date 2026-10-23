@@ -12,7 +12,7 @@ Contribution, open-PR, and publication status checked October 23, 2026. Older pr
 
 ## Recent verified work (October 16–23, 2026)
 
-GitHub search found **23 authored PRs merged** in this UTC window: 20 in repositories I own and three in other repositories. This is an activity count, not a measure of external endorsement.
+The examples below summarize significant publication and repository work in this UTC window. Each claim links to the relevant publisher, merged PR, or verification record.
 
 - **ResearchOps publication:** [When Research Evidence Stops Surviving Product Decisions](https://medium.com/researchops-community/when-research-evidence-stops-surviving-product-decisions-183579089904?postPublishedType=approve-in-publication) was accepted and published by the ResearchOps Community on Medium on October 22.
 - **CrewAI reliability work:** profile-repository PRs [#40](https://github.com/atomicdjt/atomicdjt/pull/40), [#41](https://github.com/atomicdjt/atomicdjt/pull/41), and [#42](https://github.com/atomicdjt/atomicdjt/pull/42), plus recovery-fixture [#1](https://github.com/atomicdjt/crewai-stripe-recovery-fixture/pull/1) and [#2](https://github.com/atomicdjt/crewai-stripe-recovery-fixture/pull/2), add a CrewAI-version-pinned dispatch harness, fault-injected HTTP/SQLite tests, recovery ownership, and evidence safeguards. Fixture #1 reports 20/20 deterministic tests passing on its final head. The independent Patient Agent run cited in that PR was on an earlier pinned head. This work is not an upstream CrewAI patch, a live Stripe test, or an exactly-once guarantee.
@@ -48,13 +48,14 @@ Supporting work includes GardenGrid, Mnemosyne, Amino Acid Research Workbench, H
 
 ## Work in review
 
-**Status checked October 23, 2026. Ten open PRs are in repositories I own:**
+**Status checked October 23, 2026. Eleven open PRs are in repositories I own:**
 
 - [CrewAI recovery fixture #3](https://github.com/atomicdjt/crewai-stripe-recovery-fixture/pull/3) — credential-gated Stripe test-mode smoke; live test workflow was skipped because no test secret was configured.
 - [Validation Ledger #51](https://github.com/atomicdjt/validation-ledger/pull/51) — development-dependency advisory follow-up; [#47](https://github.com/atomicdjt/validation-ledger/pull/47) — reproducible governance review docs; [#38](https://github.com/atomicdjt/validation-ledger/pull/38) — mixed-evidence demo seed.
 - [Trajectory Fidelity Bridge #44](https://github.com/atomicdjt/trajectory-fidelity-bridge/pull/44) — independent converter-review path; [#43](https://github.com/atomicdjt/trajectory-fidelity-bridge/pull/43) — test-only Claude tool-result null/error boundary coverage.
 - [WeaveStudio #67](https://github.com/atomicdjt/weavestudio/pull/67) — reviewer workflow docs; [#65](https://github.com/atomicdjt/weavestudio/pull/65) — workspace/deliverable safety changes; [#64](https://github.com/atomicdjt/weavestudio/pull/64) — approval-content attestations.
 - [QuoteForge Local #38](https://github.com/atomicdjt/quoteforge-local/pull/38) — purchase/delivery audit and buyer-prospect research; it does not report a completed real purchase or paid order.
+- [AI Project Portfolio #175](https://github.com/atomicdjt/AI-Project-Portfolio/pull/175) — adds the ResearchOps article to the portfolio writing section. It remains open because the required `validate` check failed in the production dependency audit, which reported advisories including DOMPurify; the documentation change is not merged.
 
 These are proposed branch changes, not accepted contributions or canonical releases. The separate [directory submissions](#attribution-corrections-and-pending-third-party-work) remain unmerged and are tracked above.
 
