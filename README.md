@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" alt="David Turner. Evidence-led software and systems, with a connected claim verification diagram for provenance, tests, review, and limits." width="100%" />
+<img src="./assets/profile-hero-readable.svg" alt="David Turner. Evidence-led software and systems, with a connected claim verification diagram for provenance, tests, review, and limits." width="100%" />
 
 **I build inspectable software, then test whether its claims survive contact with reality.**
 
@@ -37,7 +37,7 @@ AI-assisted engineering · agent interoperability · local-first products · rep
 | **[BuildWorld AI](https://github.com/atomicdjt/buildworld-ai)** | Reproducible graph scenarios for cascades, sensitivity, and systems intuition under explicitly heuristic models | [Live simulation](https://buildworld-ai-v01-improvements.vercel.app/) · [Methodology](https://github.com/atomicdjt/buildworld-ai/blob/main/METHODOLOGY.md) |
 | **[Cosmic Atlas Scientific](https://github.com/atomicdjt/cosmic-atlas-scientific)** | An offline astronomy atlas connecting source-derived catalog data, explicit provenance, and bounded numerical tools | [v5.1.0 release](https://github.com/atomicdjt/cosmic-atlas-scientific/releases/latest) · [v6 development reviewer guide](https://github.com/atomicdjt/cosmic-atlas-scientific/blob/main/docs/REVIEWER_QUICKSTART.md) |
 
-<img src="./assets/systems-landscape.svg" alt="Four illustrated systems with shared evidence, portability, and verification concerns" width="100%" />
+<img src="./assets/systems-landscape-readable.svg" alt="Four readable project rows covering agent interoperability, evidence review, local-first workflows, and scientific systems" width="100%" />
 
 ## How I work
 
@@ -60,6 +60,6 @@ An upstream merge establishes that a specific contribution was accepted, **not**
 
 [**Portfolio**](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [**Project index**](docs/CURRENT_WORK.md) · [**LinkedIn**](https://www.linkedin.com/in/david-turner-6052491a2/) · [**Email**](mailto:davidelsey9513@gmail.com)
 
-<img src="./assets/profile-footer.svg" alt="Evidence first. Claims second." width="100%" />
+<img src="./assets/profile-footer-readable.svg" alt="Evidence first. Claims fit the proof." width="100%" />
 
 </div>
