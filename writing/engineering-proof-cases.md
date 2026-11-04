@@ -1,6 +1,6 @@
 # Engineering proof cases: reproduce the claim, not just the demo
 
-These case studies are review guides for two bounded results. They do not turn external PR comments into employment endorsements, turn local mocks into provider assurances, or substitute CI status for independent assessment. Source and review records are linked so a reader can challenge the claims.
+These case studies are review guides for three bounded results. They do not turn external PR comments into employment endorsements, turn local mocks into provider assurances, or substitute CI status for independent assessment. Source and review records are linked so a reader can challenge the claims.
 
 ## Case 1: Rosetta #320 — a performance fix that required a security-equivalence argument
 
@@ -56,9 +56,17 @@ python -m unittest discover -s tests -v
 | Inconclusive or mismatched provider response | Remain `UNKNOWN`, retain raw evidence | Do not promote an untrusted reference |
 | Retry past a modeled idempotency retention window | Refuse create retry | Do not invent a safe provider-side replay |
 
-**Independent scrutiny and active work.** The [CrewAI #6414 discussion](https://github.com/crewAIInc/crewAI/issues/6414) includes independent review of the recovery boundary. The [fixture's PR #1](https://github.com/atomicdjt/crewai-stripe-recovery-fixture/pull/1) proposes additional retry-owner fencing and stale-evidence protections, with its own CI and tests; **it is not merged into main at this checkpoint**. A reviewer should compare branch head and CI evidence rather than assuming the proposal is part of the standard fixture.
+**Independent scrutiny and active work.** The [CrewAI #6414 discussion](https://github.com/crewAIInc/crewAI/issues/6414) includes independent review of the recovery boundary. The [fixture's PR #1](https://github.com/atomicdjt/crewai-stripe-recovery-fixture/pull/1) has since merged, adding retry-owner fencing and stale-evidence protections. Inspect the current main-branch code and test execution separately; the merge itself does not establish real Stripe behavior.
 
 **Not proved:** live Stripe test-mode or production behavior, payment confirmation, a CrewAI framework defect, remote authoritative reconciliation, prevention of all simultaneous physical HTTP requests after lease expiry, or distributed exactly-once semantics.
+
+## Case 3: OpenClaw Workboard owner capacity after completed executions
+
+[Full reproduction-oriented case study](openclaw-workboard-owner-capacity-case-study.md) · [Merged OpenClaw #187880](https://github.com/openclaw/openclaw/pull/187880) · [Maintainer merge confirmation](https://github.com/openclaw/openclaw/pull/187880#issuecomment-6509310231).
+
+A completed task with a historical execution still marked `running` must not block dispatch of a new ready task for the same owner. The PR changes the shared owner-slot predicate, preserving occupancy for nonterminal work and avoiding mutation of historical execution records. The test suite distinguishes these cases. Upstream reviewed a built Gateway / real Workboard differential before merge; the discussion records its setup and boundaries.
+
+**Scope:** one merged scheduling fix, not proof of production-wide throughput improvement, organizational endorsement, or ownership of the entire Workboard subsystem.
 
 ## Evaluation protocol
 
@@ -68,6 +76,6 @@ python -m unittest discover -s tests -v
 4. Verify that the result supports **only** the stated assertion.
 5. Record failures and reviewer objections; do not silently broaden the claim.
 
-See also [all nine merged upstream contributions](external-validation-upstream-review.md) and [the attribution/acceptance correction ledger](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/discovery/external-corroboration.md).
+See also [the 15 verified external merges](external-validation-upstream-review.md) and [the attribution/acceptance correction ledger](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/discovery/external-corroboration.md).
 
 **AI-assisted workflow:** AI helped with review and drafting. The contributor directed the scope, revised work after maintainer feedback, and owns the submitted claims; the primary GitHub record remains the source for authorship, merge, and reviewer provenance.
