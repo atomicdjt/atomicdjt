@@ -2,7 +2,7 @@
 
 Self-directed projects show what I can build. Upstream review shows what happens when somebody else controls acceptance.
 
-Checked October 20, 2026. This note records nine merged contributions across Grid Dynamics' Rosetta project and super-productivity: seven Rosetta pull requests and two super-productivity fixes. Each link below identifies an accepted, scoped contribution.
+Checked November 4, 2026 against the GitHub pull-request records. This note records **15 authored merged pull requests in external repositories**: ten in Grid Dynamics' Rosetta, two in super-productivity, one in OpenClaw, and two in a collaborator's OpenWorldRPGUnreal repository. Each link below identifies a specific accepted change, not endorsement of unrelated work.
 
 The claim is deliberately narrow. A merged pull request is evidence that a specific contribution survived an external project's review process. It is not a blanket endorsement of my portfolio, seniority, or every technical judgment I make.
 
@@ -19,8 +19,14 @@ The claim is deliberately narrow. A merged pull request is evidence that a speci
 | [Rosetta #339](https://github.com/griddynamics/rosetta/pull/339) | MultiEdit review-marker source restricted to newly written content | Merged September 29, 2026 |
 | [Rosetta #359](https://github.com/griddynamics/rosetta/pull/359) | Equal-size binary-change detection during publish | Merged October 19, 2026 |
 | [super-productivity #10126](https://github.com/super-productivity/super-productivity/pull/10126) | Schedule day panel preserves the user's scroll position after initialization | Merged September 25, 2026 |
+| [Rosetta #377](https://github.com/griddynamics/rosetta/pull/377) | Reject empty domain input before destructive generation cleanup | Maintainer-approved, merged October 29, 2026 |
+| [Rosetta #378](https://github.com/griddynamics/rosetta/pull/378) | Reject duplicate case agent IDs before trial matrix construction | Maintainer-approved, merged October 29, 2026 |
+| [Rosetta #379](https://github.com/griddynamics/rosetta/pull/379) | Nonzero CLI parse exit status when polling deadline expires with pending documents | Maintainer-approved, merged October 29, 2026 |
+| [OpenClaw #187880](https://github.com/openclaw/openclaw/pull/187880) | Exclude completed Workboard cards from active owner-slot occupancy | Maintainer-confirmed, merged October 29, 2026 |
+| [OpenWorldRPGUnreal #252](https://github.com/TateParker/OpenWorldRPGUnreal/pull/252) | Extend combat and movement test level | Merged October 21, 2026; source PR documents validation bounds |
+| [OpenWorldRPGUnreal #253](https://github.com/TateParker/OpenWorldRPGUnreal/pull/253) | Publish issue #248 asset verification manifest | Merged October 21, 2026 |
 
-The count excludes pull requests in my own repositories. [Rosetta #359](https://github.com/griddynamics/rosetta/pull/359) was merged October 19, 2026, and is included in the accepted total. The current count can be reproduced with GitHub's [merged external contribution search](https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aatomicdjt+-user%3Aatomicdjt&type=pullrequests).
+The 15-count excludes pull requests merged in my own repositories and excludes external proposals still open or closed without merge. [Rosetta #359](https://github.com/griddynamics/rosetta/pull/359) is included. GitHub's [merged external contribution search](https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aatomicdjt+-user%3Aatomicdjt&type=pullrequests) offers an independent cross-check; check individual PR pages for authorship and exact dispositions.
 
 ## Case 1: Rosetta #320 - performance improvement under adversarial review
 
@@ -61,6 +67,16 @@ Evidence: [PR #319 and review history](https://github.com/griddynamics/rosetta/p
 Rosetta #338 added a configurable deadline to command evaluation. The accepted implementation terminates the process tree when a shell command hangs and returns a normal failed evaluation. Its review history documents how hosted Ubuntu exposed descendant processes surviving the initial timeout approach. Rosetta #339 narrowed the `Rosetta-AI-reviewed` override to `new_string`, closing the case where a marker in old text or an unrelated property could authorize a MultiEdit write.
 
 Super-productivity #10126 removed the periodic effect that re-scrolled the schedule day panel as the current-time row advanced. It retained the initial scroll and current-time display. This is a small, accepted usability repair; its merge does not imply the independent differential-verification evidence recorded for Rosetta #320.
+
+## Case 3: OpenClaw #187880 — a completed card must not consume live worker capacity
+
+A Workboard card marked `done` could retain an execution marked `running` from its history. The owner-slot occupancy predicate then counted that completed card as active, preventing a ready card belonging to the same owner on another board from dispatching. [PR #187880](https://github.com/openclaw/openclaw/pull/187880), authored by `atomicdjt`, changes the predicate so completed cards do not consume live owner capacity while nonterminal running work still does.
+
+The change was limited to two files (15 additions, 19 deletions). Tests distinguish a completed historical execution from a nonterminal running execution and other active claims. In the PR discussion, maintainer `obviyus` supplied a built Gateway / real Workboard differential account using isolated SQLite state and a deterministic local provider, then confirmed the merge in `f421bd20a6` on October 29. These are upstream review records, not a claim that I ran the maintainer's environment or that all production deployments have been observed. [Reproduction and caveats](openclaw-workboard-owner-capacity-case-study.md).
+
+## Collaboration that is **not** counted as an authored merge
+
+[Rosetta #397](https://github.com/griddynamics/rosetta/pull/397) was authored by `xyrolle` to address the publishing-path defect intentionally left outside my merged [#379](https://github.com/griddynamics/rosetta/pull/379). I reviewed scope and versioning in its discussion; that collaboration is distinct from implementation authorship. [Super Productivity #11273](https://github.com/super-productivity/super-productivity/pull/11273), [Home Assistant frontend #55484](https://github.com/home-assistant/frontend/pull/55484), and [Bitwarden clients #24289](https://github.com/bitwarden/clients/pull/24289) remain submitted, not accepted, at this check.
 
 ## What I take from the record
 
