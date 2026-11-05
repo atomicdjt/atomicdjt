@@ -8,7 +8,7 @@ Workboard limits concurrent task dispatch by owner. A card can be *completed* wh
 
 ## Narrow change and invariant
 
-The shared owner-capacity predicate now requires that the card is not `done` before evaluating active claims, running card status, or a running execution. It **does not delete or rewrite historical executions**.
+The shared SQL owner-capacity predicate is used by dispatcher selection and atomic SQLite admission. It now requires that the card is not `done` before evaluating active claims, running card status, or a running execution. It **does not delete or rewrite historical executions**.
 
 | Scenario | Required behavior |
 | --- | --- |
@@ -26,9 +26,9 @@ The accepted PR changed two files with 15 additions and 19 deletions. The regres
 3. Read [maintainer `obviyus`'s independent integration account](https://github.com/openclaw/openclaw/pull/187880#issuecomment-6508868833): it describes isolated Docker builds of a real Gateway with Workboard, SQLite worker, local deterministic Chat Completions provider and base-vs-candidate dispatch comparison.
 4. Confirm [the maintainer's merge statement](https://github.com/openclaw/openclaw/pull/187880#issuecomment-6509310231) and matching merged PR state.
 
-The maintainer's integration test is **upstream-recorded evidence**. It is not a claim that this case study independently reran their environment. Exact historical reproduction requires pinned commits, dependencies and disposable state. Running an arbitrary current `main` checkout is not equivalent.
+The maintainer reported two base/candidate repetitions using synthetic legacy records and a deterministic local provider. The base started no affected workers; the candidate started and completed one in each repetition. The maintainer also reported 56 passing focused tests and an intended base failure. These are **upstream-recorded results**, not a fresh reproduction by this case study. It is not a claim that this case study independently reran their environment. Exact historical reproduction requires pinned commits, dependencies and disposable state. Running an arbitrary current `main` checkout is not equivalent.
 
-## What changed for an actual user
+## Expected effect for a user
 
 A worker's stale history on a completed card no longer prevents dispatch of another eligible task merely because the historical execution field remained `running`. The old execution record remains available for inspection.
 
