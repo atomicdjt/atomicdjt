@@ -31,6 +31,8 @@ npm test
 
 Inspect [the actual matcher source](https://github.com/griddynamics/rosetta/blob/main/src/hooks/src/hooks/dangerous-actions/patterns.ts) and [its dedicated regression file](https://github.com/griddynamics/rosetta/blob/main/src/hooks/tests/git-branch-delete.test.ts). For a historical reproduction rather than a current-main smoke test, inspect the [merged PR's commit range](https://github.com/griddynamics/rosetta/pull/320/commits) and run the equivalent commands at the exact target revision. **These commands are a reproduction path, not a claim that this documentation edit reran upstream tests.**
 
+**Scope boundary:** The [reviewer](https://github.com/griddynamics/rosetta/pull/320#pullrequestreview-4996590299) found similar scaling in other dangerous-command patterns, including an earlier `git-force-push` match. The team chose to address that family separately. This PR improves one matcher; it does not establish linear performance for the whole guard.
+
 **Failure modes worth challenging:** cross-line `git\s+branch` variants; candidate order within a segment; flag isolation across `;`, `&&`, `|`, CR/LF; and pathological inputs with many benign candidates.
 
 ## Case 2: Recovery after an ambiguous tool side-effect
