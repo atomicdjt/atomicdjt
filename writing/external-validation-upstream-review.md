@@ -2,9 +2,9 @@
 
 Self-directed projects show what I can build. Upstream review shows what happens when somebody else controls acceptance.
 
-Checked November 4, 2026 against the GitHub pull-request records. This note records **15 authored merged pull requests in external repositories**: ten in Grid Dynamics' Rosetta, two in super-productivity, one in OpenClaw, and two in a collaborator's OpenWorldRPGUnreal repository. Each link below identifies a specific accepted change, not endorsement of unrelated work.
+Checked November 5, 2026 against the GitHub pull-request records. This note records **16 authored merged pull requests in external repositories**: ten in Grid Dynamics' Rosetta, three in Super Productivity, one in OpenClaw, and two in a collaborator's OpenWorldRPGUnreal repository. The two OpenWorldRPGUnreal PRs were merged by my own account and are not evidence of independent maintainer acceptance. Each link below identifies a specific accepted change, not endorsement of unrelated work.
 
-The claim is deliberately narrow. A merged pull request is evidence that a specific contribution survived an external project's review process. It is not a blanket endorsement of my portfolio, seniority, or every technical judgment I make.
+The claim is deliberately narrow. A merged pull request establishes that a change entered the target branch; independent review and acceptance must be established separately from its discussion and merge record. It is not a blanket endorsement of my portfolio, seniority, or every technical judgment I make.
 
 ## The record
 
@@ -23,10 +23,11 @@ The claim is deliberately narrow. A merged pull request is evidence that a speci
 | [Rosetta #378](https://github.com/griddynamics/rosetta/pull/378) | Reject duplicate case agent IDs before trial matrix construction | Maintainer-approved, merged October 29, 2026 |
 | [Rosetta #379](https://github.com/griddynamics/rosetta/pull/379) | Nonzero CLI parse exit status when polling deadline expires with pending documents | Maintainer-approved, merged October 29, 2026 |
 | [OpenClaw #187880](https://github.com/openclaw/openclaw/pull/187880) | Exclude completed Workboard cards from active owner-slot occupancy | Maintainer-confirmed, merged October 29, 2026 |
+| [Super Productivity #11273](https://github.com/super-productivity/super-productivity/pull/11273) | Correct partial custom-weekday selection in the Local REST API | Merged by maintainer November 5, 2026; [case study](super-productivity-weekday-api-case-study.md) |
 | [OpenWorldRPGUnreal #252](https://github.com/TateParker/OpenWorldRPGUnreal/pull/252) | Extend combat and movement test level | Merged October 21, 2026; source PR documents validation bounds |
 | [OpenWorldRPGUnreal #253](https://github.com/TateParker/OpenWorldRPGUnreal/pull/253) | Publish issue #248 asset verification manifest | Merged October 21, 2026 |
 
-The 15-count excludes pull requests merged in my own repositories and excludes external proposals still open or closed without merge. [Rosetta #359](https://github.com/griddynamics/rosetta/pull/359) is included. GitHub's [merged external contribution search](https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aatomicdjt+-user%3Aatomicdjt&type=pullrequests) offers an independent cross-check; check individual PR pages for authorship and exact dispositions.
+The 16-count excludes pull requests merged in my own repositories and excludes external proposals still open or closed without merge. [Rosetta #359](https://github.com/griddynamics/rosetta/pull/359) is included. GitHub's [merged external contribution search](https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aatomicdjt+-user%3Aatomicdjt&type=pullrequests) offers an independent cross-check; check individual PR pages for authorship and exact dispositions.
 
 ## Case 1: Rosetta #320 - performance improvement under adversarial review
 
@@ -76,7 +77,7 @@ The change was limited to two files (15 additions, 19 deletions). Tests distingu
 
 ## Collaboration that is **not** counted as an authored merge
 
-[Rosetta #397](https://github.com/griddynamics/rosetta/pull/397) was authored by `xyrolle` to address the publishing-path defect intentionally left outside my merged [#379](https://github.com/griddynamics/rosetta/pull/379). I reviewed scope and versioning in its discussion; that collaboration is distinct from implementation authorship. [Super Productivity #11273](https://github.com/super-productivity/super-productivity/pull/11273), [Home Assistant frontend #55484](https://github.com/home-assistant/frontend/pull/55484), and [Bitwarden clients #24289](https://github.com/bitwarden/clients/pull/24289) remain submitted, not accepted, at this check.
+[Rosetta #397](https://github.com/griddynamics/rosetta/pull/397) was authored by `xyrolle` to address the publishing-path defect intentionally left outside my merged [#379](https://github.com/griddynamics/rosetta/pull/379). I reviewed scope and versioning in its discussion; that collaboration is distinct from implementation authorship. [Home Assistant frontend #55484](https://github.com/home-assistant/frontend/pull/55484) and [Bitwarden clients #24289](https://github.com/bitwarden/clients/pull/24289) remain submitted, not accepted, at this check.
 
 ## What I take from the record
 
@@ -93,7 +94,7 @@ That is the same discipline I try to apply to independent product work: explicit
 
 ## What this does not prove
 
-These merges do not establish broad product adoption, customer traction, employment by the upstream organizations, or senior-engineering tenure. They establish something narrower and more useful for evaluating my work: external repositories reviewed specific contributions closely enough to challenge them, request changes, independently reproduce key claims, and ultimately merge them.
+These merges do not establish broad product adoption, customer traction, employment by the upstream organizations, or senior-engineering tenure. They establish something narrower and more useful for evaluating my work: the linked records document specific merges; the review and reproduction evidence differs by contribution, and the two self-merged collaborator-repository PRs should not be treated as independent maintainer acceptance.
 
 ## AI-assisted workflow disclosure
 

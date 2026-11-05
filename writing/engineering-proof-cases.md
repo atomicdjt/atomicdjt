@@ -76,6 +76,6 @@ A completed task with a historical execution still marked `running` must not blo
 4. Verify that the result supports **only** the stated assertion.
 5. Record failures and reviewer objections; do not silently broaden the claim.
 
-See also [the 15 verified external merges](external-validation-upstream-review.md) and [the attribution/acceptance correction ledger](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/discovery/external-corroboration.md).
+See also [the 16 verified external-repository merges](external-validation-upstream-review.md) and [the attribution/acceptance correction ledger](https://github.com/atomicdjt/AI-Project-Portfolio/blob/main/docs/discovery/external-corroboration.md).
 
 **AI-assisted workflow:** AI helped with review and drafting. The contributor directed the scope, revised work after maintainer feedback, and owns the submitted claims; the primary GitHub record remains the source for authorship, merge, and reviewer provenance.
