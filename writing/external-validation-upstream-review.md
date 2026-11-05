@@ -6,6 +6,8 @@ Checked November 4, 2026 against the GitHub pull-request records. This note reco
 
 The claim is deliberately narrow. A merged pull request is evidence that a specific contribution survived an external project's review process. It is not a blanket endorsement of my portfolio, seniority, or every technical judgment I make.
 
+**November 5 update:** [Super Productivity #11273](https://github.com/super-productivity/super-productivity/pull/11273) subsequently merged; see the [weekday API case study](super-productivity-weekday-api-case-study.md). The count and table below are retained as the November 4 snapshot.
+
 ## The record
 
 | Contribution | Scope | External result |
@@ -76,7 +78,7 @@ The change was limited to two files (15 additions, 19 deletions). Tests distingu
 
 ## Collaboration that is **not** counted as an authored merge
 
-[Rosetta #397](https://github.com/griddynamics/rosetta/pull/397) was authored by `xyrolle` to address the publishing-path defect intentionally left outside my merged [#379](https://github.com/griddynamics/rosetta/pull/379). I reviewed scope and versioning in its discussion; that collaboration is distinct from implementation authorship. [Super Productivity #11273](https://github.com/super-productivity/super-productivity/pull/11273), [Home Assistant frontend #55484](https://github.com/home-assistant/frontend/pull/55484), and [Bitwarden clients #24289](https://github.com/bitwarden/clients/pull/24289) remain submitted, not accepted, at this check.
+[Rosetta #397](https://github.com/griddynamics/rosetta/pull/397) was authored by `xyrolle` to address the publishing-path defect intentionally left outside my merged [#379](https://github.com/griddynamics/rosetta/pull/379). I reviewed scope and versioning in its discussion; that collaboration is distinct from implementation authorship. [Home Assistant frontend #55484](https://github.com/home-assistant/frontend/pull/55484) and [Bitwarden clients #24289](https://github.com/bitwarden/clients/pull/24289) remain submitted, not accepted, at this check.
 
 ## What I take from the record
 

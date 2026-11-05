@@ -13,7 +13,8 @@ External merge record checked November 4, 2026; the dated October 23 work-in-rev
 ## Verified external developments (October 29–November 4, 2026)
 
 - **Merged:** [OpenClaw #187880](https://github.com/openclaw/openclaw/pull/187880), plus [Rosetta #377](https://github.com/griddynamics/rosetta/pull/377), [#378](https://github.com/griddynamics/rosetta/pull/378), and [#379](https://github.com/griddynamics/rosetta/pull/379). Each belongs to the 15 authored external merges enumerated in the linked record.
-- **Open on this check, not counted as merges:** [Super Productivity #11273](https://github.com/super-productivity/super-productivity/pull/11273), [Home Assistant #55484](https://github.com/home-assistant/frontend/pull/55484), and [Bitwarden #24289](https://github.com/bitwarden/clients/pull/24289). Review and CI status must be verified at the specific PR head before claiming readiness.
+- **November 5 update:** [Super Productivity #11273](https://github.com/super-productivity/super-productivity/pull/11273) merged after its November 4 status check; see the [case study](../writing/super-productivity-weekday-api-case-study.md).
+- **Open on the November 5 check, not counted as merges:** [Home Assistant #55484](https://github.com/home-assistant/frontend/pull/55484) and [Bitwarden #24289](https://github.com/bitwarden/clients/pull/24289). Review and CI status must be verified at the specific PR head before claiming readiness.
 - **External collaboration (not authored):** [Rosetta #397](https://github.com/griddynamics/rosetta/pull/397) was authored by `xyrolle`; my role is linked review correspondence on the publishing-path follow-on to #379.
 - **Updated technical proof:** [OpenClaw Workboard scheduling case study](../writing/openclaw-workboard-owner-capacity-case-study.md).
 
