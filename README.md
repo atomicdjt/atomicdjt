@@ -4,6 +4,8 @@
 
 I build and harden AI-assisted software with a focus on reliability, evidence, and clear failure handling. My background also includes asset protection and loss prevention.
 
+**External contribution record (verified November 5, 2026): 16 authored pull requests merged in external repositories** — 10 Rosetta, 3 Super Productivity, 1 OpenClaw, and 2 OpenWorldRPGUnreal. The [source-linked record](writing/external-validation-upstream-review.md) includes the [newly merged Super Productivity #11273](https://github.com/super-productivity/super-productivity/pull/11273). This count includes only PRs authored by me and marked merged; unmerged proposals and comments on PRs by others are excluded.
+
 - **[Rosetta #320](https://github.com/griddynamics/rosetta/pull/320):** made a safety check for destructive Git commands faster, with independent reviewer testing.
 - **[OpenClaw #187880](https://github.com/openclaw/openclaw/pull/187880):** fixed a scheduling rule that could leave new work waiting.
 - **[Trajectory Fidelity Bridge](https://github.com/atomicdjt/trajectory-fidelity-bridge):** converts supported coding-agent histories into a portable trajectory format and reports known information loss.
