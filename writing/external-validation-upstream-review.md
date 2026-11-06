@@ -1,5 +1,7 @@
 # External Validation: What Upstream Review Actually Established
 
+**Current verified count as of November 5, 2026: 16 authored pull requests merged in four external repositories** — ten Rosetta, three Super Productivity, one OpenClaw, and two OpenWorldRPGUnreal. [Super Productivity #11273](https://github.com/super-productivity/super-productivity/pull/11273) is the November 5 addition. The dated November 4 table below remains a historical 15-PR snapshot; the added PR and current count are recorded here without rewriting that snapshot. This count includes only PRs authored by `atomicdjt` with GitHub's merged state and excludes self-owned repositories, open or closed-unmerged submissions, and comments on pull requests authored by others.
+
 Self-directed projects show what I can build. Upstream review shows what happens when somebody else controls acceptance.
 
 Checked November 4, 2026 against the GitHub pull-request records. This note records **15 authored merged pull requests in external repositories**: ten in Grid Dynamics' Rosetta, two in super-productivity, one in OpenClaw, and two in a collaborator's OpenWorldRPGUnreal repository. Each link below identifies a specific accepted change, not endorsement of unrelated work.
