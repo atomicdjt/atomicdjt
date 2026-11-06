@@ -1,14 +1,15 @@
-<div align="center">
+# David Turner
 
-<img src="./assets/profile-motion.gif" alt="Looping verification animation: David Turner, evidence-led engineering, and a signal moving through source, test, review, and scope around a central claim." width="100%" />
+I build and harden AI-assisted software with a focus on reliability, evidence, and clear failure handling. My background also includes asset protection and loss prevention.
 
-**I build inspectable software, then test whether its claims survive contact with reality.**
+- **[Rosetta #320](https://github.com/griddynamics/rosetta/pull/320):** made a safety check for destructive Git commands faster, with independent reviewer testing.
+- **[OpenClaw #187880](https://github.com/openclaw/openclaw/pull/187880):** fixed a scheduling rule that could leave new work waiting.
+- **[Trajectory Fidelity Bridge](https://github.com/atomicdjt/trajectory-fidelity-bridge):** converts supported coding-agent histories into a portable trajectory format and reports known information loss.
+- **[Stripe recovery fixture](https://github.com/atomicdjt/crewai-stripe-recovery-fixture):** demonstrates recovery from ambiguous payment-provider responses using simulated tests.
 
-AI-assisted engineering · agent interoperability · local-first products · reproducible verification
+I use AI tools in development and document what the evidence supports and what remains unverified.
 
-[**View live projects**](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [**Inspect external engineering proof**](writing/external-validation-upstream-review.md) · [**See what is maintained**](docs/CURRENT_WORK.md) · [**Contact**](mailto:davidelsey9513@gmail.com)
-
-</div>
+[Portfolio](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/david-turner-6052491a2) · [Email](mailto:davidelsey9513@gmail.com)
 
 ## Start here: three checks of the work
 
