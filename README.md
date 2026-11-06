@@ -7,7 +7,7 @@ I build and harden AI-assisted software with a focus on reliability, evidence, a
 - **[Rosetta #320](https://github.com/griddynamics/rosetta/pull/320):** made a safety check for destructive Git commands faster, with independent reviewer testing.
 - **[OpenClaw #187880](https://github.com/openclaw/openclaw/pull/187880):** fixed a scheduling rule that could leave new work waiting.
 - **[Trajectory Fidelity Bridge](https://github.com/atomicdjt/trajectory-fidelity-bridge):** converts supported coding-agent histories into a portable trajectory format and reports known information loss.
-- **[Stripe recovery fixture](https://github.com/atomicdjt/crewai-stripe-recovery-fixture):** demonstrates recovery from ambiguous payment-provider responses using simulated tests.
+- **[CrewAI Stripe Recovery Fixture](https://github.com/atomicdjt/crewai-stripe-recovery-fixture):** demonstrates recovery from ambiguous payment-provider responses using simulated tests.
 
 I use AI tools in development and document what the evidence supports and what remains unverified.
 
@@ -19,7 +19,10 @@ I use AI tools in development and document what the evidence supports and what r
 | --- | --- | --- |
 | **Can a change withstand adversarial review?** | [Rosetta #320](https://github.com/griddynamics/rosetta/pull/320) · [Engineering case study](writing/engineering-proof-cases.md#case-1-rosetta-320--a-performance-fix-that-required-a-security-equivalence-argument) | A dangerous-command matcher fix merged after independent differential, scaling, and mutation review; not a general security certification |
 | **Can an observation be separated from an inference?** | [AgentMeasure DR-005](https://github.com/roy-tong/AgentMeasure/blob/main/design-rationale/DR-005-evidence-calibrated-consumption-claims.md) · [Attributed fixture](https://github.com/roy-tong/AgentMeasure/blob/main/conformance/evidence/inference-boundary-aggregation-replay/README.md) | An external project explicitly credited my limited reviewer input and synthetic fixture; not authorship of the full specification |
-| **Can an ambiguous tool result be handled conservatively?** | [CrewAI recovery fixture](https://github.com/atomicdjt/crewai-stripe-recovery-fixture) · [Boundary case study](writing/engineering-proof-cases.md#case-2-recovery-after-an-ambiguous-tool-side-effect) | Local, fault-injected SQLite/provider-double behavior; not a live Stripe, distributed exactly-once, or upstream CrewAI guarantee |
+| **Can an ambiguous tool result be handled conservatively?** | [CrewAI Stripe Recovery Fixture](https://github.com/atomicdjt/crewai-stripe-recovery-fixture) · [Boundary case study](writing/engineering-proof-cases.md#case-2-recovery-after-an-ambiguous-tool-side-effect) | Local, fault-injected SQLite/provider-double behavior; not a live Stripe, distributed exactly-once, or upstream CrewAI guarantee |
+
+<details>
+<summary>More projects, contributions, and review routes</summary>
 
 The contribution record below is a November 4 snapshot and predates the November 5 merge described in recent work.
 
@@ -51,8 +54,6 @@ The contribution record below is a November 4 snapshot and predates the November
 
 My current work includes TypeScript/React applications, Python CLIs, agent-tool boundaries, provenance-aware workflows, and browser/local data models. AI tools assist with research, coding, tests, and drafting; I direct requirements and verification, review changes, and take responsibility for published work.
 
-An upstream merge establishes that a specific contribution was accepted, **not** employment, organizational endorsement, commercial traction, or approval of unrelated work. Local tests do not establish production behavior or independently verified real-world usage.
-
 ## Independent review routes
 
 - **Engineering and security reviewers:** start with [Rosetta #320 and the recovery case studies](writing/engineering-proof-cases.md), then inspect tests and the upstream discussion.
@@ -64,8 +65,8 @@ An upstream merge establishes that a specific contribution was accepted, **not**
 
 <div align="center">
 
-[**Portfolio**](https://ai-project-portfolio-portfolio-hub.vercel.app/) · [**Project index**](docs/CURRENT_WORK.md) · [**LinkedIn**](https://www.linkedin.com/in/david-turner-6052491a2/) · [**Email**](mailto:davidelsey9513@gmail.com)
-
 <img src="./assets/profile-footer-readable.svg" alt="Evidence first. Claims fit the proof." width="100%" />
 
 </div>
+
+</details>
