@@ -1,3 +1,5 @@
+<img src="./assets/profile-motion.gif" alt="Looping verification animation: David Turner, evidence-led engineering, and a signal moving through source, test, review, and scope around a central claim." width="100%" />
+
 # David Turner
 
 I build and harden AI-assisted software with a focus on reliability, evidence, and clear failure handling. My background also includes asset protection and loss prevention.
