@@ -1,3 +1,5 @@
+<img src="./assets/profile-motion.gif" alt="Looping verification animation: David Turner, evidence-led engineering, and a signal moving through source, test, review, and scope around a central claim." width="100%" />
+
 # David Turner
 
 I build and harden AI-assisted software focused on reliability, evidence, and clear failure handling. My work spans Python tools, TypeScript applications, and agent workflows.
@@ -21,8 +23,12 @@ Authored changes merged into external projects:
 - **[WeaveStudio](https://github.com/atomicdjt/weavestudio)** — a local-first visual canvas for building and reviewing workflows and deliverables. Public source is available for evaluation under a proprietary license. [Demo](https://weavestudio-nine.vercel.app/) · [Reviewer guide](https://github.com/atomicdjt/weavestudio/blob/main/docs/REVIEWER_QUICKSTART.md)
 - **[CrewAI Stripe Recovery Fixture](https://github.com/atomicdjt/crewai-stripe-recovery-fixture)** — local, simulated tests of recovery after ambiguous provider responses; not a live Stripe integration or an exactly-once guarantee.
 
+<img src="./assets/systems-landscape-readable.svg" alt="Four project rows covering agent interoperability, evidence review, local-first workflows, and scientific systems" width="100%" />
+
 ## How I work
 
 AI tools assist with research, coding, tests, and drafting. I direct requirements and verification, review changes, and take responsibility for published work.
 
 [Technical writing](writing/) · [ResearchOps Community article](https://medium.com/researchops-community/when-research-evidence-stops-surviving-product-decisions-183579089904?postPublishedType=approve-in-publication) · [Previous profile and additional evidence](PROFILE-2026-11-05.md) (historical snapshot; statuses may have changed)
+
+<img src="./assets/profile-footer-readable.svg" alt="Evidence first. Claims fit the proof." width="100%" />
